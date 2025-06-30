@@ -68,7 +68,6 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 - ✅ Cập nhật lại logic thống kê: số hợp đồng, tổng lãi, tổng tiền chính xác hơn
 - ✅ Giao diện in bằng PDF được căn chỉnh đúng mẫu thực tế
-- ✅ Thiết kế lại hộp thoại "About" hiện đại, dễ đọc, luôn hiển thị phía trên
 
 ---
 
