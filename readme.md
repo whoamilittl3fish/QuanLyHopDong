@@ -4,9 +4,9 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ---
 
-## 🚀 Phiên bản hiện tại: **v1.1**
+## 🚀 Phiên bản hiện tại: **v1.2.1**
 
-> Phiên bản đầu tiên ổn định, tập trung vào tính dễ dùng, ổn định và hỗ trợ in ấn hợp đồng thực tế.
+> Cập nhật cải thiện thống kê, giao diện in và thông tin phần mềm (About)
 
 ---
 
@@ -16,20 +16,22 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 - Lịch sử đóng lãi từng kỳ, hỗ trợ gia hạn thông minh
 - Tìm kiếm và phân trang dữ liệu hợp đồng
 - Quản lý tình trạng hợp đồng: Đang vay, Sắp tới hạn, Quá hạn, Tất toán...
-- In hợp đồng và lịch sử đóng lãi theo mẫu Word hoặc PDF
+- In hợp đồng và lịch sử đóng lãi theo mẫu Word hoặc PDF (QuestPDF)
 - Bảo mật bằng key bản quyền vĩnh viễn (gắn với phần cứng)
 
 ---
 
 ## 🎨 Mã màu trạng thái hợp đồng:
 
-- `Đang vay`                   → Trắng  
-- `Sắp tới hạn`                → Vàng  
-- `Tới hạn hôm nay`            → Xanh lá sáng  
-- `Tới hạn hôm nay (đã đóng)`  → Xanh lá đậm  
-- `Quá hạn`                    → Đỏ  
-- `Đã chuộc (Tất toán)`        → Xám  
-- `Đã đóng lãi tất cả kỳ`      → Xám nhạt  
+| Trạng thái                     | Màu sắc      |
+|-------------------------------|--------------|
+| Đang vay                      | Trắng        |
+| Sắp tới hạn                   | Vàng         |
+| Tới hạn hôm nay               | Xanh lá sáng |
+| Tới hạn hôm nay (đã đóng)     | Xanh lá đậm  |
+| Quá hạn                       | Đỏ           |
+| Đã chuộc (Tất toán)           | Xám          |
+| Đã đóng lãi tất cả kỳ         | Xám nhạt     |
 
 ---
 
@@ -62,9 +64,17 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ---
 
+## 🆕 Thay đổi trong v1.2.1:
+
+- ✅ Cập nhật lại logic thống kê: số hợp đồng, tổng lãi, tổng tiền chính xác hơn
+- ✅ Giao diện in bằng PDF được căn chỉnh đúng mẫu thực tế
+- ✅ Thiết kế lại hộp thoại "About" hiện đại, dễ đọc, luôn hiển thị phía trên
+
+---
+
 ## 💻 Yêu cầu hệ thống:
 
-- Windows 10 trở lên
+- Hệ điều hành: Windows 10 trở lên
 - .NET Desktop Runtime **8.0** hoặc cao hơn
 - Không cần cài SQL Server (sử dụng SQLite nội bộ)
 
@@ -72,7 +82,7 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ## 📦 Cài đặt và sử dụng:
 
-1. Tải về từ mục [Releases]([https://github.com/your-repo/releases](https://github.com/whoamilittl3fish/QuanLyHopDong/releases))
+1. Tải về từ mục [Releases](https://github.com/whoamilittl3fish/QuanLyHopDong/releases)
 2. Giải nén và chạy file `QuanLyVayVon.exe`
 3. Nhập key bản quyền (liên hệ để nhận)
 
