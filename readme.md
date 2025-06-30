@@ -6,7 +6,7 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ## 🚀 Phiên bản hiện tại: **v1.1**
 
-> Đây là phiên bản đầu tiên ổn định, tập trung vào tính ổn định, khả năng sử dụng và in ấn hợp đồng thực tế.
+> Phiên bản đầu tiên ổn định, tập trung vào tính dễ dùng, ổn định và hỗ trợ in ấn hợp đồng thực tế.
 
 ---
 
@@ -21,7 +21,49 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ---
 
+## 🎨 Mã màu trạng thái hợp đồng:
+
+- `Đang vay`                   → Trắng  
+- `Sắp tới hạn`                → Vàng  
+- `Tới hạn hôm nay`            → Xanh lá sáng  
+- `Tới hạn hôm nay (đã đóng)`  → Xanh lá đậm  
+- `Quá hạn`                    → Đỏ  
+- `Đã chuộc (Tất toán)`        → Xám  
+- `Đã đóng lãi tất cả kỳ`      → Xám nhạt  
+
+---
+
+## ✍️ Ghi chú thao tác hệ thống:
+
+- `Tạo hợp đồng`         → Lưu thời gian tạo, người tạo  
+- `Sửa hợp đồng`         → Chỉ được sửa nếu chưa có lịch sử đóng lãi  
+- `Đóng lãi`             → Ghi nhận kỳ đóng, số tiền, ngày đóng  
+- `Gia hạn kỳ đóng lãi` → Kỳ đầu tiên chưa đóng được đánh dấu là "gia hạn"  
+- `Chuộc đồ (Tất toán)` → Cập nhật tình trạng, kết thúc hợp đồng  
+
+---
+
+## 💰 Hiển thị lãi đến hôm nay:
+
+- Phần mềm tự động tính:  
+  → Tổng lãi từ ngày vay hoặc từ kỳ đóng gần nhất cho tới hôm nay
+
+- Hiển thị trong bảng để:  
+  → Ước tính số tiền cần đóng nếu muốn chuộc  
+  → Dễ kiểm soát hợp đồng quá hạn lâu chưa đóng  
+
+---
+
+## 📊 Thống kê nhanh:
+
+- Số hợp đồng đang vay        : XX  
+- Tổng tiền đang cho vay      : XXX,XXX,000 VNĐ  
+- Tổng lãi đã thu trong tháng : XX,XXX,000 VNĐ  
+
+---
+
 ## 💻 Yêu cầu hệ thống:
+
 - Windows 10 trở lên
 - .NET Desktop Runtime **8.0** hoặc cao hơn
 - Không cần cài SQL Server (sử dụng SQLite nội bộ)
@@ -29,13 +71,15 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 ---
 
 ## 📦 Cài đặt và sử dụng:
-1. Tải về từ mục [Releases](https://github.com/your-repo/releases)
+
+1. Tải về từ mục [Releases]([https://github.com/your-repo/releases](https://github.com/whoamilittl3fish/QuanLyHopDong/releases))
 2. Giải nén và chạy file `QuanLyVayVon.exe`
 3. Nhập key bản quyền (liên hệ để nhận)
 
 ---
 
 ## 🔐 Bản quyền & kích hoạt:
+
 - Hệ thống key bản quyền dựa trên thông tin phần cứng (HWID)
 - Hỗ trợ tạo key dùng thử, key vĩnh viễn và kiểm tra offline
 - Liên hệ bên dưới để được cấp key
@@ -43,9 +87,10 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 ---
 
 ## 📞 Hỗ trợ & liên hệ:
+
 - **SĐT**: 0966 346 694  
 - **Email**: khoa.ngovoviet@gmail.com
 
 ---
 
-> Mọi phản hồi hoặc đề xuất tính năng mới xin gửi về qua email hoặc GitHub Issues.
+> Mọi phản hồi hoặc đề xuất tính năng mới xin gửi về qua email hoặc tạo GitHub Issue.
