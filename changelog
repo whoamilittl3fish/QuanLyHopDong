@@ -1,6 +1,18 @@
 # 📜 CHANGELOG
 
 Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
+---
+
+## [1.2.1] - 2025-07-01
+### 🔧 Cập nhật nhỏ nhưng quan trọng
+- ✅ Cải tiến thống kê:
+  - Tổng hợp **số hợp đồng đang vay**, **tổng tiền cho vay**, và **lãi đã thu trong tháng** chính xác theo thời gian thực
+- 🖨️ Cập nhật giao diện in PDF (QuestPDF):
+  - Căn chỉnh lại mẫu in lịch sử & hợp đồng sát với bản mẫu thực tế
+  - Cải thiện bố cục rõ ràng, gọn gàng
+- 💄 Cải thiện giao diện nhẹ: tinh chỉnh một số chi tiết font và canh lề
+
+> Đây là bản nâng cấp nhẹ sau phiên bản ổn định 1.1, tập trung vào độ chính xác và trải nghiệm in ấn chuyên nghiệp.
 
 ---
 
