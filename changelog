@@ -1,0 +1,29 @@
+# 📜 CHANGELOG
+
+Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
+
+---
+
+## [1.1] - 2025-06-30
+### ✨ Phiên bản chính thức đầu tiên (ổn định)
+- Giao diện hiện đại, font Montserrat, bố cục rõ ràng
+- Quản lý hợp đồng vay: thêm, sửa
+- Tính lãi từng kỳ, hiển thị số ngày chưa đóng
+- Lịch sử đóng lãi từng kỳ, hỗ trợ gia hạn
+- Tìm kiếm hợp đồng theo tên, mã, ngày vay; có phân trang
+- Quản lý tình trạng hợp đồng: Đang vay, Sắp tới hạn, Quá hạn, Tất toán, v.v.
+- In hợp đồng và lịch sử đóng lãi từ mẫu Word hoặc PDF (QuestPDF)
+- Bảo vệ bằng key bản quyền vĩnh viễn (dựa trên HWID)
+- Hiển thị thống kê nhanh: số hợp đồng đang vay, tổng tiền cho vay, lãi đã thu trong tháng
+- Tự động tính lãi đến hôm nay để hỗ trợ chuộc nhanh
+
+---
+
+## [1.0] - 2025-06-15
+### 🧪 Phiên bản thử nghiệm nội bộ
+- Cơ bản tạo & lưu hợp đồng bằng SQLite
+- Giao diện sơ khởi chưa chuẩn hóa layout
+- Có tính năng tính lãi theo kỳ
+- In hợp đồng bằng mẫu Word
+- Chưa có kiểm soát bản quyền hoặc trạng thái hợp đồng
+- Chưa hỗ trợ phân trang, tìm kiếm
