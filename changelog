@@ -1,6 +1,17 @@
 # 📜 CHANGELOG
 
 Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
+
+---
+
+## [1.2.2] - 2025-07-01
+### 🧾 Cập nhật in hợp đồng & lịch sử đóng lãi
+- 📝 **Sửa lỗi đọc số tiền bằng chữ**:
+  - Chuẩn hóa cú pháp tiếng Việt (bỏ đoạn "không trăm lẻ..." không tự nhiên)
+- 📅 **Cập nhật thông tin in lịch sử**:
+  - Hiển thị **ngày bắt đầu** và **ngày kết thúc** đóng lãi đúng định dạng `dd/MM/yyyy`
+- 📂 In PDF lưu vào thư mục `Print/HopDong` và `Print/LichSu`
+
 ---
 
 ## [1.2.1] - 2025-07-01
