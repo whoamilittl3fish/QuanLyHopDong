@@ -4,9 +4,9 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ---
 
-## 🚀 Phiên bản hiện tại: **v1.2.1**
+## 🚀 Phiên bản hiện tại: **v1.2.2**
 
-> Cập nhật cải thiện thống kê, giao diện in và thông tin phần mềm (About)
+> Cập nhật căn chỉnh chính xác hơn khi in hợp đồng và lịch sử đóng lãi
 
 ---
 
@@ -64,10 +64,16 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ---
 
-## 🆕 Thay đổi trong v1.2.1:
+## 🆕 Thay đổi gần đây:
 
-- ✅ Cập nhật lại logic thống kê: số hợp đồng, tổng lãi, tổng tiền chính xác hơn
-- ✅ Giao diện in bằng PDF được căn chỉnh đúng mẫu thực tế
+### ✅ v1.2.2:
+- Sửa lỗi căn chữ trong phần in số tiền bằng chữ (Việt hoá chính xác hơn)
+- Cập nhật in lịch sử đóng lãi: hiển thị ngày bắt đầu / ngày kết thúc đúng định dạng `dd/MM/yyyy`
+
+### ✅ v1.2.1:
+- Cập nhật logic thống kê: tổng lãi đã thu, số hợp đồng đang vay và tổng tiền đang cho vay chính xác hơn
+- In PDF hợp đồng / lịch sử đẹp hơn, căn chỉnh sát mẫu thực tế
+- Giao diện “Giới thiệu” mới: thông tin tác giả, liên hệ rõ ràng
 
 ---
 
