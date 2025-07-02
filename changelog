@@ -4,6 +4,18 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 
 ---
 
+## [1.2.4] - 2025-07-02
+### 🔍 Tìm kiếm thông minh & tự động hóa kỳ lãi
+- 🔁 **Tự động tạo kỳ lãi đầu tiên** ngay khi thêm hoặc sửa hợp đồng (giúp dễ theo dõi và thu lãi từ ngày đầu)
+- 🔎 **Tìm kiếm không dấu** theo tên khách hàng (chỉ cần nhập một từ bất kỳ, ví dụ: "khoa" → ra "Việt Khoa")
+- ☁️ **Kiểm tra phiên bản phần mềm online** nếu có kết nối mạng
+- 🗃️ **Tự cập nhật cơ sở dữ liệu** (nếu phát hiện bản cũ) mà không làm mất dữ liệu
+- 🧪 Cải tiến xử lý logic tính ngày, đảm bảo kỳ đầu luôn khớp với ngày vay hoặc gần nhất
+
+> Bản nâng cấp nhỏ nhưng quan trọng, hỗ trợ thao tác mượt hơn, tìm kiếm tiện hơn và đảm bảo dữ liệu luôn nhất quán.
+
+---
+
 ## [1.2.2] - 2025-07-01
 ### 🧾 Cập nhật in hợp đồng & lịch sử đóng lãi
 - 📝 **Sửa lỗi đọc số tiền bằng chữ**:
