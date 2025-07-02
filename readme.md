@@ -4,16 +4,18 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ---
 
-## 🚀 Phiên bản hiện tại: **v1.2.2**
+## 🚀 Phiên bản hiện tại: **v1.2.4**
 
-> Cập nhật căn chỉnh chính xác hơn khi in hợp đồng và lịch sử đóng lãi
+> Cập nhật tìm kiếm thông minh, tự tạo kỳ đóng lãi đầu tiên và kiểm tra phiên bản online
 
 ---
 
 ## ✅ Tính năng chính:
 - Quản lý hợp đồng vay: Thêm / sửa hợp đồng nhanh chóng
 - Tự động tính lãi theo kỳ, hiển thị số ngày từ kỳ gần nhất
+- **Tự động tạo kỳ lãi đầu tiên** ngay khi thêm hoặc sửa hợp đồng
 - Lịch sử đóng lãi từng kỳ, hỗ trợ gia hạn thông minh
+- **Tìm kiếm hợp đồng không dấu**, chỉ cần gõ 1 từ bất kỳ
 - Tìm kiếm và phân trang dữ liệu hợp đồng
 - Quản lý tình trạng hợp đồng: Đang vay, Sắp tới hạn, Quá hạn, Tất toán...
 - In hợp đồng và lịch sử đóng lãi theo mẫu Word hoặc PDF (QuestPDF)
@@ -65,6 +67,12 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 ---
 
 ## 🆕 Thay đổi gần đây:
+
+### ✅ v1.2.4:
+- Tự động tạo kỳ lãi gần nhất khi thêm hoặc sửa hợp đồng
+- Tìm kiếm tên khách hàng không dấu (ví dụ: gõ "khoa" sẽ ra "Việt Khoa")
+- Kiểm tra phiên bản phần mềm online nếu có kết nối mạng
+- Tự cập nhật cấu trúc CSDL (nếu phát hiện bản cũ) mà không làm mất dữ liệu
 
 ### ✅ v1.2.2:
 - Sửa lỗi căn chữ trong phần in số tiền bằng chữ (Việt hoá chính xác hơn)
