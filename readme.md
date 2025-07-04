@@ -4,9 +4,9 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 
 ---
 
-## 🚀 Phiên bản hiện tại: **v1.2.4**
+## 🚀 Phiên bản hiện tại: **v1.2.5**
 
-> Cập nhật tìm kiếm thông minh, tự tạo kỳ đóng lãi đầu tiên và kiểm tra phiên bản online
+> Cải thiện quản lý hợp đồng, thêm màu và icon trực quan cho lịch sử đóng lãi, sửa lỗi thao tác hợp đồng
 
 ---
 
@@ -32,7 +32,7 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 | Tới hạn hôm nay               | Xanh lá sáng |
 | Tới hạn hôm nay (đã đóng)     | Xanh lá đậm  |
 | Quá hạn                       | Đỏ           |
-| Đã chuộc (Tất toán)           | Xám          |
+| Đã chuộc (Tất toán)           | Xám đậm      |
 | Đã đóng lãi tất cả kỳ         | Xám nhạt     |
 
 ---
@@ -67,6 +67,20 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện đẹp, dễ sử 
 ---
 
 ## 🆕 Thay đổi gần đây:
+
+### ✅ v1.2.5:
+- 📢 Cảnh báo rõ ràng khi click vào hợp đồng đã bị xoá
+- 🧹 Sửa bộ lọc các trạng thái `Đã chuộc`, `Đã chuộc sớm`
+- 🎨 Bảng lịch sử đóng lãi có màu sắc nổi bật:
+  - 🔴 Quá hạn / tới hạn hôm nay (chưa đóng)
+  - 🟢 Tới hạn hôm nay đã đóng, Đang vay
+  - 🟡 Sắp tới hạn
+  - ⚪ Đã đóng tất cả kỳ
+  - ⚫ Đã chuộc / chuộc sớm
+- 🖼️ Thêm icon minh hoạ từng dòng trong bảng đóng lãi
+- 📅 Thêm cột "Tổng thời gian vay (ngày)" trong lịch sử hợp đồng
+- 🔁 Reload lại form lịch sử đóng lãi sau khi gia hạn hoặc chuộc
+- 🚫 Không cho gia hạn nếu đã đóng tất cả kỳ
 
 ### ✅ v1.2.4:
 - Tự động tạo kỳ lãi gần nhất khi thêm hoặc sửa hợp đồng
