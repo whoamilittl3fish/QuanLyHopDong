@@ -2,6 +2,27 @@
 
 Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 
+
+---
+
+## [1.2.5] – 2025-07-03  
+### 🎯 Cải thiện quản lý hợp đồng & lịch sử đóng lãi
+
+- 📢 **Cảnh báo rõ ràng** khi click vào hợp đồng đã bị xóa – không còn lỗi truy vấn cơ sở dữ liệu  
+- 🧹 **Sửa bộ lọc** hiển thị chính xác các hợp đồng có trạng thái `Đã chuộc`, `Đã chuộc sớm`  
+- 🎨 **Bổ sung màu sắc cho bảng Lịch sử đóng lãi**:
+  - 🔴 **Đỏ**: Quá hạn / Tới hạn hôm nay (chưa đóng)
+  - 🟢 **Xanh nhạt**: Tới hạn hôm nay đã đóng / Đang vay
+  - 🟡 **Vàng**: Sắp tới hạn
+  - ⚪ **Xám nhạt**: Đã đóng tất cả các kỳ
+  - ⚫ **Xám đậm**: Hợp đồng đã chuộc / Chuộc sớm  
+- 🖼️ **Thêm icon minh họa** cho từng dòng trong bảng lịch sử đóng lãi → giúp dễ phân biệt và nổi bật thông tin hơn  
+- 📅 **Thêm cột "Tổng thời gian vay (ngày)"** trong bảng lịch sử hợp đồng – thuận tiện cho việc thống kê và đánh giá thời gian vay thực tế  
+- 🔁 **Tự động reload form lịch sử đóng lãi** sau khi chuộc hoặc gia hạn, thay vì yêu cầu tắt mở lại  
+- 🚫 **Ngăn không cho phép gia hạn** nếu hợp đồng đã hoàn tất toàn bộ kỳ (hiển thị cảnh báo “Không thể tìm thấy kỳ gia hạn”)
+
+> ✅ Đây là bản cập nhật tuy nhỏ nhưng **tối ưu đáng kể trải nghiệm người dùng**, khắc phục các vấn đề hiển thị & thao tác, đồng thời cải tiến độ rõ ràng và kiểm soát luồng hoạt động của phần mềm.
+
 ---
 
 ## [1.2.4] - 2025-07-02
@@ -62,3 +83,4 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 - In hợp đồng bằng mẫu Word
 - Chưa có kiểm soát bản quyền hoặc trạng thái hợp đồng
 - Chưa hỗ trợ phân trang, tìm kiếm
+
