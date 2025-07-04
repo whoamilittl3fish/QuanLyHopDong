@@ -2,6 +2,18 @@
 
 Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 
+---
+
+## [1.2.6] – 2025-07-04  
+### 📊 Ghi nhận thống kê cố định theo tháng
+
+- 🧾 **Ghi lại thống kê tổng tiền đã thu và số hợp đồng đã thu** của từng tháng → giúp dễ dàng đối chiếu kết quả kinh doanh theo thời gian  
+- 🗃️ Dữ liệu thống kê từng tháng **được lưu cố định tại thời điểm chọn tháng**  
+    → Sau đó dù có ❌ xóa hợp đồng đã tất toán hay 🔁 chỉnh sửa lãi, thì **dữ liệu cũ vẫn không thay đổi**  
+- 👁️ Hai dòng “Tổng tiền đã thu” và “Tổng hợp đồng đã thu” **chỉ hiển thị khi đã chọn một tháng cụ thể** trong danh sách  
+- 💬 Cập nhật giao diện hiển thị thống kê, sắp xếp rõ ràng hơn  
+
+> ✅ Đây là bản cập nhật quan trọng giúp **cố định dữ liệu báo cáo**, không bị ảnh hưởng bởi thao tác sau này
 
 ---
 
@@ -21,66 +33,57 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 - 🔁 **Tự động reload form lịch sử đóng lãi** sau khi chuộc hoặc gia hạn, thay vì yêu cầu tắt mở lại  
 - 🚫 **Ngăn không cho phép gia hạn** nếu hợp đồng đã hoàn tất toàn bộ kỳ (hiển thị cảnh báo “Không thể tìm thấy kỳ gia hạn”)
 
-> ✅ Đây là bản cập nhật tuy nhỏ nhưng **tối ưu đáng kể trải nghiệm người dùng**, khắc phục các vấn đề hiển thị & thao tác, đồng thời cải tiến độ rõ ràng và kiểm soát luồng hoạt động của phần mềm.
-
 ---
 
-## [1.2.4] - 2025-07-02
+## [1.2.4] – 2025-07-02  
 ### 🔍 Tìm kiếm thông minh & tự động hóa kỳ lãi
-- 🔁 **Tự động tạo kỳ lãi đầu tiên** ngay khi thêm hoặc sửa hợp đồng (giúp dễ theo dõi và thu lãi từ ngày đầu)
-- 🔎 **Tìm kiếm không dấu** theo tên khách hàng (chỉ cần nhập một từ bất kỳ, ví dụ: "khoa" → ra "Việt Khoa")
-- ☁️ **Kiểm tra phiên bản phần mềm online** nếu có kết nối mạng
-- 🗃️ **Tự cập nhật cơ sở dữ liệu** (nếu phát hiện bản cũ) mà không làm mất dữ liệu
-- 🧪 Cải tiến xử lý logic tính ngày, đảm bảo kỳ đầu luôn khớp với ngày vay hoặc gần nhất
 
-> Bản nâng cấp nhỏ nhưng quan trọng, hỗ trợ thao tác mượt hơn, tìm kiếm tiện hơn và đảm bảo dữ liệu luôn nhất quán.
+- 🔁 **Tự động tạo kỳ lãi đầu tiên** ngay khi thêm hoặc sửa hợp đồng  
+- 🔎 **Tìm kiếm không dấu** theo tên khách hàng (gõ "khoa" ra "Việt Khoa")  
+- ☁️ **Kiểm tra phiên bản phần mềm online** nếu có mạng  
+- 🗃️ **Tự cập nhật cấu trúc CSDL** nếu bản cũ → không mất dữ liệu  
+- 📅 Cải tiến logic ngày: kỳ đầu luôn khớp ngày vay hoặc gần nhất
 
 ---
 
-## [1.2.2] - 2025-07-01
+## [1.2.2] – 2025-07-01  
 ### 🧾 Cập nhật in hợp đồng & lịch sử đóng lãi
-- 📝 **Sửa lỗi đọc số tiền bằng chữ**:
-  - Chuẩn hóa cú pháp tiếng Việt (bỏ đoạn "không trăm lẻ..." không tự nhiên)
-- 📅 **Cập nhật thông tin in lịch sử**:
-  - Hiển thị **ngày bắt đầu** và **ngày kết thúc** đóng lãi đúng định dạng `dd/MM/yyyy`
-- 📂 In PDF lưu vào thư mục `Print/HopDong` và `Print/LichSu`
+
+- 📝 **Sửa lỗi đọc số tiền bằng chữ** (bỏ "không trăm lẻ..." không tự nhiên)  
+- 📅 In lịch sử: hiển thị **ngày bắt đầu / kết thúc** đúng định dạng `dd/MM/yyyy`  
+- 📂 In PDF lưu trong thư mục `Print/HopDong` và `Print/LichSu`
 
 ---
 
-## [1.2.1] - 2025-07-01
+## [1.2.1] – 2025-07-01  
 ### 🔧 Cập nhật nhỏ nhưng quan trọng
-- ✅ Cải tiến thống kê:
-  - Tổng hợp **số hợp đồng đang vay**, **tổng tiền cho vay**, và **lãi đã thu trong tháng** chính xác theo thời gian thực
-- 🖨️ Cập nhật giao diện in PDF (QuestPDF):
-  - Căn chỉnh lại mẫu in lịch sử & hợp đồng sát với bản mẫu thực tế
-  - Cải thiện bố cục rõ ràng, gọn gàng
-- 💄 Cải thiện giao diện nhẹ: tinh chỉnh một số chi tiết font và canh lề
 
-> Đây là bản nâng cấp nhẹ sau phiên bản ổn định 1.1, tập trung vào độ chính xác và trải nghiệm in ấn chuyên nghiệp.
+- ✅ Thống kê chính xác: hợp đồng đang vay, tiền cho vay, lãi thu trong tháng  
+- 🖨️ Giao diện PDF (QuestPDF) căn chỉnh đẹp như mẫu thật  
+- 💄 Tinh chỉnh font chữ và canh lề trong giao diện
 
 ---
 
-## [1.1] - 2025-06-30
+## [1.1] – 2025-06-30  
 ### ✨ Phiên bản chính thức đầu tiên (ổn định)
-- Giao diện hiện đại, font Montserrat, bố cục rõ ràng
-- Quản lý hợp đồng vay: thêm, sửa
-- Tính lãi từng kỳ, hiển thị số ngày chưa đóng
-- Lịch sử đóng lãi từng kỳ, hỗ trợ gia hạn
-- Tìm kiếm hợp đồng theo tên, mã, ngày vay; có phân trang
-- Quản lý tình trạng hợp đồng: Đang vay, Sắp tới hạn, Quá hạn, Tất toán, v.v.
-- In hợp đồng và lịch sử đóng lãi từ mẫu Word hoặc PDF (QuestPDF)
-- Bảo vệ bằng key bản quyền vĩnh viễn (dựa trên HWID)
-- Hiển thị thống kê nhanh: số hợp đồng đang vay, tổng tiền cho vay, lãi đã thu trong tháng
-- Tự động tính lãi đến hôm nay để hỗ trợ chuộc nhanh
+
+- Giao diện hiện đại, font Montserrat  
+- Quản lý hợp đồng vay: thêm, sửa  
+- Tính lãi theo kỳ, hiển thị số ngày chưa đóng  
+- Lịch sử đóng lãi chi tiết, hỗ trợ gia hạn  
+- Tìm kiếm nâng cao: tên, mã, ngày vay, có phân trang  
+- In hợp đồng + lịch sử bằng Word hoặc PDF  
+- Bảo vệ bằng key bản quyền gắn HWID  
+- Thống kê tổng tiền vay, số hợp đồng, lãi đã thu  
+- Tự động tính lãi đến hôm nay để hỗ trợ chuộc
 
 ---
 
-## [1.0] - 2025-06-15
+## [1.0] – 2025-06-15  
 ### 🧪 Phiên bản thử nghiệm nội bộ
-- Cơ bản tạo & lưu hợp đồng bằng SQLite
-- Giao diện sơ khởi chưa chuẩn hóa layout
-- Có tính năng tính lãi theo kỳ
-- In hợp đồng bằng mẫu Word
-- Chưa có kiểm soát bản quyền hoặc trạng thái hợp đồng
-- Chưa hỗ trợ phân trang, tìm kiếm
 
+- Tạo & lưu hợp đồng bằng SQLite  
+- Giao diện khởi tạo đơn giản  
+- Có tính lãi theo kỳ  
+- In hợp đồng bằng mẫu Word  
+- Chưa có bản quyền, phân trang, tìm kiếm
