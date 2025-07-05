@@ -1,4 +1,4 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.2.7*
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.2.8*
 
 > Phần mềm quản lý cầm đồ đơn giản, giao diện hiện đại, dễ sử dụng. Phù hợp cho cửa hàng nhỏ đến vừa.
 
@@ -76,36 +76,47 @@
 
 ## 📦 Cập nhật tính năng
 
-### 🆕 v1.2.7
+### 🆕 v1.2.8
 
-- 📅 **Chuẩn hóa toàn bộ định dạng ngày** về `dd-MM-yyyy` cho:
-  - Lịch sử đóng lãi
-  - Ghi chú thao tác hợp đồng
-  - File PDF hợp đồng
+- 🚀 **Tự động cập nhật phần mềm**:
+  - Tải file `.exe` mới từ GitHub  
+  - Hiển thị tiến trình và trạng thái cài đặt  
+  - Tự động chạy lại ứng dụng sau khi cài  
+  - Không cần thao tác kỹ thuật từ người dùng  
 
-- ✍️ **Lịch sử hợp đồng rõ ràng, dễ tra cứu**:
-  - Tiêu đề căn giữa bằng dấu gạch ngang
-  - Dòng nội dung căn đều bằng dấu `_____`
-  - Thao tác ghi rõ thời gian, kỳ lãi, số ngày gia hạn...
+- 🧑‍💻 **Tối ưu giao diện khi cập nhật**:
+  - Hiển thị rõ tiến độ phần trăm  
+  - Thông báo “Đã tải xong – đang cài đặt” dễ hiểu  
+  - Chờ 1 giây để người dùng đọc được  
 
-- 📜 Mọi thao tác như `Tạo`, `Sửa`, `Gia hạn`, `Chuộc`, `Đóng lãi`... đều có cấu trúc ghi chú đồng nhất
+- 🎨 **Cải tiến vị trí và bố cục nút trong các form**:
+  - Các nút sắp xếp hợp lý hơn, tránh nhầm lẫn  
+  - Một số form được căn chỉnh lại cho đều và gọn gàng hơn
+
+---
+
+### ✅ v1.2.7
+
+- 📅 **Chuẩn hóa toàn bộ định dạng ngày** về `dd-MM-yyyy`
+- ✍️ **Lịch sử hợp đồng rõ ràng, dễ tra cứu**
+- 📜 Ghi chú thao tác được trình bày chuyên nghiệp
 
 ---
 
 ### ✅ v1.2.6
 
-- 📊 **Thống kê cố định theo tháng**
-- 🗃️ Không bị ảnh hưởng bởi xóa/sửa hợp đồng sau đó
+- 📊 **Ghi nhận thống kê cố định theo tháng**
+- 🗃️ Dữ liệu báo cáo không bị ảnh hưởng sau khi sửa / xóa
 
 ---
 
 ### ✅ v1.2.5 → v1.2.1
 
-- 🎛️ Tối ưu bộ lọc trạng thái, màu sắc lịch sử đóng lãi
-- 🔄 Tự động tạo kỳ lãi gần nhất
-- 🔍 Tìm kiếm không dấu, kiểm tra phiên bản online
-- 🧾 In PDF giống mẫu thật
-- 🗃️ Tự cập nhật CSDL không mất dữ liệu
+- 🎛️ Tối ưu bộ lọc, màu sắc lịch sử đóng lãi
+- 🔄 Tạo kỳ lãi đầu tiên tự động
+- 🔍 Tìm kiếm không dấu, kiểm tra phiên bản
+- 🧾 In PDF đẹp như mẫu thật
+- ⚙️ Cập nhật CSDL tự động không mất dữ liệu
 
 ---
 
@@ -114,4 +125,3 @@
 - Windows 10 trở lên  
 - .NET Desktop Runtime 8.0+  
 - Không cần cài SQL Server – dùng SQLite tích hợp
-
