@@ -4,9 +4,9 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện hiện đại, d�
 
 ---
 
-## 🚀 Phiên bản hiện tại: **v1.2.6**
+## 🚀 Phiên bản hiện tại: **v1.2.7**
 
-> Hệ thống thống kê dòng tiền theo tháng, giao diện cải tiến trực quan và ổn định cao
+> Lịch sử thao tác hợp đồng hiển thị rõ ràng hơn, đồng bộ định dạng ngày dd-MM-yyyy
 
 ---
 
@@ -59,33 +59,56 @@ Phần mềm quản lý cầm đồ đơn giản, giao diện hiện đại, d�
 
 ## 📦 Cập nhật tính năng
 
-### 🆕 v1.2.6
+### 🆕 v1.2.7
+
+- 📅 **Chuẩn hóa toàn bộ định dạng ngày** về dạng `dd-MM-yyyy`, áp dụng trên:
+  - Lịch sử đóng lãi
+  - Ghi chú thao tác hợp đồng
+  - File PDF hợp đồng in ra
+
+- ✍️ **Lịch sử hợp đồng hiển thị rõ ràng, dễ tra cứu hơn**:
+  - Các tiêu đề như `GIA HẠN HỢP ĐỒNG`, `CHUỘC HỢP ĐỒNG`, `TẠO/SỬA HỢP ĐỒNG` được **căn giữa bằng dấu gạch ngang**
+  - Các dòng thông tin được căn đều bằng dấu `_____`, giúp nhìn gọn, chuyên nghiệp hơn
+  - Mỗi thao tác lưu lịch sử sẽ ghi chi tiết `Thời gian`, `Số ngày gia hạn`, `Kỳ lãi`,… tùy theo loại thao tác
+
+- 📜 Ghi chú thao tác trong hệ thống (`Tạo`, `Sửa`, `Gia hạn`, `Chuộc`, `Cập nhật tình trạng`, `Đóng lãi`) đều có cấu trúc thống nhất – giúp **dễ rà soát lại lịch sử** theo thời gian
+
+---
+
+### ✅ v1.2.6
 
 - 📊 **Thống kê cố định theo tháng**:
   - Ghi lại **tổng tiền đã thu** và **số hợp đồng đã thu** vào thời điểm chọn tháng
   - Dữ liệu **không bị thay đổi** nếu hợp đồng bị xóa hoặc chỉnh sửa sau đó
-- 👁️ Ẩn hai dòng “Tổng tiền đã thu” và “Tổng hợp đồng đã thu” khi chưa chọn tháng cụ thể
+
+- 👁️ Chỉ hiển thị thống kê khi chọn một tháng cụ thể
+
+---
 
 ### ✅ v1.2.5
 
-- Cảnh báo rõ ràng khi click vào hợp đồng đã bị xoá  
-- Sửa bộ lọc trạng thái `Đã chuộc`, `Đã chuộc sớm`  
-- Thêm màu sắc + icon minh hoạ cho lịch sử đóng lãi  
-- Reload form khi gia hạn hoặc chuộc  
-- Cảnh báo khi gia hạn nhưng đã đóng hết lãi
+- 📢 Cảnh báo rõ ràng khi click vào hợp đồng đã bị xoá  
+- 🎛️ Sửa bộ lọc trạng thái `Đã chuộc`, `Đã chuộc sớm`  
+- 🎨 Thêm màu sắc + icon minh hoạ cho lịch sử đóng lãi  
+- 🔁 Reload form khi gia hạn hoặc chuộc  
+- 🚫 Cảnh báo khi gia hạn nhưng đã đóng hết lãi
+
+---
 
 ### ✅ v1.2.4
 
-- Tự động tạo kỳ lãi gần nhất khi thêm/sửa  
-- Tìm tên khách hàng không dấu  
-- Kiểm tra phiên bản online  
-- Tự cập nhật cấu trúc CSDL (không mất dữ liệu)
+- 🔄 Tự động tạo kỳ lãi gần nhất khi thêm/sửa  
+- 🔍 Tìm tên khách hàng không dấu  
+- 🌐 Kiểm tra phiên bản online  
+- 🗃️ Tự cập nhật cấu trúc CSDL (không mất dữ liệu)
 
-### ✅ v1.2.2 - 1.2.1
+---
 
-- Cải thiện căn lề, định dạng ngày khi in  
-- Thống kê và in PDF giống mẫu thật  
-- Hiển thị chi tiết số ngày vay, kỳ cuối
+### ✅ v1.2.2 – 1.2.1
+
+- 📑 Cải thiện căn lề, định dạng ngày khi in  
+- 🧾 Thống kê và in PDF giống mẫu thật  
+- 📆 Hiển thị chi tiết số ngày vay, kỳ cuối
 
 ---
 
