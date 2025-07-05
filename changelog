@@ -4,6 +4,23 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 
 ---
 
+## [1.2.7] – 2025-07-05  
+### 🧠 Lịch sử thao tác dễ đọc, định dạng ngày đồng bộ
+
+- 📅 **Chuẩn hóa toàn bộ định dạng ngày** thành `dd-MM-yyyy`, áp dụng trên:
+  - Lịch sử đóng lãi
+  - Ghi chú thao tác hợp đồng
+  - Hợp đồng PDF
+- 🧾 **Lịch sử thao tác được trình bày rõ ràng hơn**:
+  - Các mục như `GIA HẠN`, `CHUỘC`, `TẠO`, `SỬA`, `CẬP NHẬT TÌNH TRẠNG`, `ĐÓNG LÃI`… được chia thành **các đoạn dễ nhìn** với tiêu đề **căn giữa bằng dấu gạch**
+  - Các dòng thông tin như "Tiền vay", "Tiền nợ còn lại", "Kỳ lãi"… được **căn đều bằng ký tự gạch dưới `__`** giúp đồng nhất
+- 📝 Khi gia hạn, hệ thống ghi rõ số ngày gia hạn và đơn vị kỳ lãi (ví dụ: 30 ngày, kỳ lãi: tháng)
+- ✅ Cập nhật các hàm ghi lịch sử để thống nhất hiển thị nội dung và căn chỉnh, không cần viết lại từng nơi
+
+> Đây là bản cập nhật tập trung vào trải nghiệm tra cứu và lịch sử thao tác – rõ ràng hơn, chuyên nghiệp hơn
+
+---
+
 ## [1.2.6] – 2025-07-04  
 ### 📊 Ghi nhận thống kê cố định theo tháng
 
