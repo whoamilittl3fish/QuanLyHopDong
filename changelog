@@ -4,6 +4,26 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 
 ---
 
+## [1.2.8] – 2025-07-06  
+### ⚙️ Cập nhật tự động & cải thiện giao diện tải
+
+- 🔄 **Thêm tính năng cập nhật hoàn toàn tự động**:
+  - Tự động **tải bản mới từ GitHub**
+  - **Tự chạy cài đặt** mà không cần thao tác thủ công
+  - Tự động **khởi động lại phần mềm sau khi cài xong**
+  - **Không yêu cầu kỹ thuật** – ai cũng có thể cập nhật dễ dàng
+
+- 🎨 **Tối ưu giao diện khi tải bản cập nhật**:
+  - Thanh tiến trình hiển thị % rõ ràng, không nhảy liên tục gây rối mắt
+  - Dòng trạng thái như “Đang cài đặt...” rõ ràng, dễ hiểu
+  - Form luôn nằm trên cùng để người dùng không bị bỏ sót
+
+- 🧹 **Điều chỉnh bố cục một số form**:
+  - Căn chỉnh lại vị trí các nút (OK, Hủy, Xác nhận…) hợp lý hơn
+  - Trải nghiệm mượt và thống nhất trong toàn hệ thống
+
+---
+
 ## [1.2.7] – 2025-07-05  
 ### 🧠 Lịch sử thao tác dễ đọc, định dạng ngày đồng bộ
 
@@ -17,8 +37,6 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 - 📝 Khi gia hạn, hệ thống ghi rõ số ngày gia hạn và đơn vị kỳ lãi (ví dụ: 30 ngày, kỳ lãi: tháng)
 - ✅ Cập nhật các hàm ghi lịch sử để thống nhất hiển thị nội dung và căn chỉnh, không cần viết lại từng nơi
 
-> Đây là bản cập nhật tập trung vào trải nghiệm tra cứu và lịch sử thao tác – rõ ràng hơn, chuyên nghiệp hơn
-
 ---
 
 ## [1.2.6] – 2025-07-04  
@@ -29,8 +47,6 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
     → Sau đó dù có ❌ xóa hợp đồng đã tất toán hay 🔁 chỉnh sửa lãi, thì **dữ liệu cũ vẫn không thay đổi**  
 - 👁️ Hai dòng “Tổng tiền đã thu” và “Tổng hợp đồng đã thu” **chỉ hiển thị khi đã chọn một tháng cụ thể** trong danh sách  
 - 💬 Cập nhật giao diện hiển thị thống kê, sắp xếp rõ ràng hơn  
-
-> ✅ Đây là bản cập nhật quan trọng giúp **cố định dữ liệu báo cáo**, không bị ảnh hưởng bởi thao tác sau này
 
 ---
 
