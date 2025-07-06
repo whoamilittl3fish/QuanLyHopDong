@@ -1,4 +1,4 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.2.8*
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.2.9*
 
 > Phần mềm quản lý cầm đồ đơn giản, giao diện hiện đại, dễ sử dụng. Phù hợp cho cửa hàng nhỏ đến vừa.
 
@@ -76,20 +76,33 @@
 
 ## 📦 Cập nhật tính năng
 
+### ✅ v1.2.9
+
+- 🔐 **Thêm chức năng mật khẩu bảo vệ ứng dụng**
+  - Tất cả thao tác quan trọng như *xóa hợp đồng* hoặc *truy cập cài đặt* đều yêu cầu nhập mật khẩu
+  - Nếu chưa đặt mật khẩu trước đó, có thể tạo mật khẩu từ menu cài đặt
+
+- 🧠 **Đổi mật khẩu có xác nhận kỹ càng**
+  - Giao diện đặt lại mật khẩu đơn giản, dễ thao tác
+  - Nhập lại mật khẩu 2 lần để tránh nhập nhầm
+  - Sau khi đổi, **hiển thị rõ mật khẩu mới** để người dùng có thể ghi nhớ
+
+---
+
 ### 🆕 v1.2.8
 
-- 🚀 **Tự động cập nhật phần mềm**:
+- 🚀 **Tự động cập nhật phần mềm**
   - Tải file `.exe` mới từ GitHub  
   - Hiển thị tiến trình và trạng thái cài đặt  
   - Tự động chạy lại ứng dụng sau khi cài  
   - Không cần thao tác kỹ thuật từ người dùng  
 
-- 🧑‍💻 **Tối ưu giao diện khi cập nhật**:
+- 🧑‍💻 **Tối ưu giao diện khi cập nhật**
   - Hiển thị rõ tiến độ phần trăm  
   - Thông báo “Đã tải xong – đang cài đặt” dễ hiểu  
   - Chờ 1 giây để người dùng đọc được  
 
-- 🎨 **Cải tiến vị trí và bố cục nút trong các form**:
+- 🎨 **Cải tiến vị trí và bố cục nút trong các form**
   - Các nút sắp xếp hợp lý hơn, tránh nhầm lẫn  
   - Một số form được căn chỉnh lại cho đều và gọn gàng hơn
 
@@ -98,25 +111,43 @@
 ### ✅ v1.2.7
 
 - 📅 **Chuẩn hóa toàn bộ định dạng ngày** về `dd-MM-yyyy`
+  - Áp dụng cho: Lịch sử đóng lãi, Hợp đồng PDF, Ghi chú thao tác
+
 - ✍️ **Lịch sử hợp đồng rõ ràng, dễ tra cứu**
-- 📜 Ghi chú thao tác được trình bày chuyên nghiệp
+  - Canh lề đều bằng dấu chấm hoặc gạch dưới  
+  - Hiển thị rõ từng thao tác: tạo, gia hạn, chuộc, sửa hợp đồng
+
+- 🧾 **Gia hạn hợp đồng** ghi rõ số ngày và đơn vị kỳ (ví dụ: 30 ngày – kỳ lãi: tháng)
+
+- 🧠 **Tiêu đề ghi chú nổi bật**, căn giữa bằng dấu `-` để phân tách các mốc thay đổi
 
 ---
 
 ### ✅ v1.2.6
 
 - 📊 **Ghi nhận thống kê cố định theo tháng**
-- 🗃️ Dữ liệu báo cáo không bị ảnh hưởng sau khi sửa / xóa
+  - Tổng tiền đã thu và số hợp đồng đã thu trong từng tháng được ghi lại vĩnh viễn
+  - Dữ liệu báo cáo không bị thay đổi dù sau này có sửa hoặc xóa hợp đồng
+
+- 👁️ **Hiển thị thống kê khi chọn tháng cụ thể** từ danh sách
 
 ---
 
-### ✅ v1.2.5 → v1.2.1
+### ✅ v1.2.5
 
-- 🎛️ Tối ưu bộ lọc, màu sắc lịch sử đóng lãi
-- 🔄 Tạo kỳ lãi đầu tiên tự động
-- 🔍 Tìm kiếm không dấu, kiểm tra phiên bản
-- 🧾 In PDF đẹp như mẫu thật
-- ⚙️ Cập nhật CSDL tự động không mất dữ liệu
+- 🛠 **Cải thiện thông báo lỗi**
+  - Thông báo rõ ràng khi tra cứu hợp đồng đã bị xoá
+
+- 🔍 **Tối ưu bộ lọc hợp đồng**
+  - Có thể lọc theo tình trạng "Đã chuộc", "Đã chuộc sớm", "Đã tất toán"
+
+- 🎨 **Cập nhật màu sắc bảng lịch sử đóng lãi**
+  - Quá hạn → Đỏ
+  - Tới hạn hôm nay chưa đóng → Xanh lá sáng  
+  - Tới hạn hôm nay đã đóng → Xanh lá đậm  
+  - Sắp tới hạn → Vàng  
+  - Đã đóng tất cả kỳ → Xám nhạt  
+  - Đã chuộc → Xám đậm
 
 ---
 
