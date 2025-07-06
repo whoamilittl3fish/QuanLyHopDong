@@ -4,6 +4,30 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 
 ---
 
+## [1.2.9] – 2025-07-06  
+### 🔐 Bảo vệ phần mềm bằng mật khẩu
+
+- 🧩 **Thêm tính năng đặt mật khẩu đăng nhập ứng dụng**:
+  - Người dùng có thể tự đặt mật khẩu mới tại mục “Cài đặt”
+  - Lưu trữ mật khẩu bảo mật trong hệ thống
+  - Hiển thị thông báo khi cài thành công và **xuất ra mật khẩu mới để người dùng ghi nhớ**
+
+- 🛡️ **Yêu cầu nhập đúng mật khẩu trước khi thực hiện các thao tác quan trọng** *(đã có sẵn từ trước)* như:
+  - Xóa hợp đồng
+  - Đổi mật khẩu hệ thống
+  - Truy cập mục quản lý nâng cao
+
+- ✅ **Xác nhận kỹ khi đổi mật khẩu**:
+  - Yêu cầu nhập lại mật khẩu 2 lần
+  - Cảnh báo nếu không trùng khớp để tránh mất quyền truy cập
+
+- 👁️ **Form nhập mật khẩu được thiết kế rõ ràng, giao diện hiện đại**:
+  - Tự động căn giữa
+  - Giao diện bo tròn, font chữ lớn dễ đọc
+  - Nút “Xác nhận” và “Thoát” hiển thị rõ ràng
+
+---
+
 ## [1.2.8] – 2025-07-06  
 ### ⚙️ Cập nhật tự động & cải thiện giao diện tải
 
