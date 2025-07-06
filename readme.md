@@ -76,7 +76,7 @@
 
 ## 📦 Cập nhật tính năng
 
-### ✅ v1.2.9
+### 🆕 v1.2.9
 
 - 🔐 **Thêm chức năng mật khẩu bảo vệ ứng dụng**
   - Tất cả thao tác quan trọng như *xóa hợp đồng* hoặc *truy cập cài đặt* đều yêu cầu nhập mật khẩu
@@ -89,7 +89,7 @@
 
 ---
 
-### 🆕 v1.2.8
+### ✅ v1.2.8
 
 - 🚀 **Tự động cập nhật phần mềm**
   - Tải file `.exe` mới từ GitHub  
