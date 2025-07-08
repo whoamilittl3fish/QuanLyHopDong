@@ -4,6 +4,32 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 
 ---
 
+## [1.2.10] – 2025-07-08  
+### 🌐 Chuẩn hóa định dạng & tương thích đa hệ điều hành
+
+- 💰 **Chuẩn hóa định dạng số tiền** theo chuẩn quốc tế:
+  - Dùng dấu **phẩy `,`** để phân cách **hàng nghìn**
+  - Dùng dấu **chấm `.`** để phân cách **phần thập phân**
+  - Áp dụng cho: hợp đồng PDF, lịch sử đóng lãi, giao diện nhập liệu
+
+- 🌏 **Tương thích với mọi ngôn ngữ hệ điều hành** (Windows tiếng Việt, tiếng Anh,...):
+  - Không còn lỗi định dạng số dù hệ thống đặt ngôn ngữ khác nhau
+  - Số tiền luôn hiển thị chính xác theo chuẩn cố định (CultureInfo.InvariantCulture)
+
+- 📅 **Cải tiến định dạng ngày rõ ràng hơn**:
+  - Dùng định dạng `dd - MM - yyyy` thay vì `dd/MM/yyyy`
+  - Phù hợp với mẫu in hợp đồng và lịch sử đóng lãi, đồng bộ toàn hệ thống
+
+- 🎨 **Căn giữa nội dung trong ô chọn ngày (`DateTimePicker`)**:
+  - Tự động thêm khoảng trắng hoặc NBSP để canh giữa chính xác
+  - Không phụ thuộc vào độ phân giải hay font hệ thống
+
+- 🛠️ **Bổ sung hàm định dạng số và ngày nhất quán**:
+  - Các hàm FormatTextBox, TryParse, FormatNumber đều sử dụng chuẩn Mỹ (US)
+  - Giao diện hoạt động ổn định cả khi hệ điều hành đặt tiếng Việt hoặc English
+
+---
+
 ## [1.2.9] – 2025-07-06  
 ### 🔐 Bảo vệ phần mềm bằng mật khẩu
 
