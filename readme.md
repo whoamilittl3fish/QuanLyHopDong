@@ -74,9 +74,32 @@
 
 ---
 
+### 🆕 v1.2.10
+
+- 💰 **Chuẩn hóa định dạng số tiền theo chuẩn quốc tế**
+  - Dùng dấu **phẩy `,`** để phân cách **hàng nghìn**
+  - Dùng dấu **chấm `.`** để phân cách **phần thập phân**
+  - Áp dụng cho: hợp đồng PDF, lịch sử đóng lãi, các ô nhập liệu tiền trên giao diện
+
+- 🌐 **Tương thích đa ngôn ngữ hệ điều hành**
+  - Hoạt động ổn định trên cả Windows tiếng Việt, tiếng Anh...
+  - Số liệu không bị lỗi khi máy đặt hệ thống là `vi-VN`, `en-US`, v.v
+  - Luôn hiển thị đúng định dạng bất kể ngôn ngữ hoặc vùng miền
+
+- 📅 **Cải tiến định dạng ngày**
+  - Dùng format dễ đọc hơn: **`dd - MM - yyyy`** (ví dụ: `01 - 01 - 2025`)
+  - Hiển thị rõ ràng, dễ nhận biết, phù hợp khi in hợp đồng
+  - Căn giữa nội dung ngày trong ô chọn (`DateTimePicker`) giúp giao diện cân đối hơn
+
+- 🖥️ **Tối ưu giao diện khi chọn ngày**
+  - Định dạng ngày mới được hiển thị ổn định ở mọi kích thước ô nhập
+  - Có thể chọn ngày nhanh bằng phím tắt và popup lịch tiện lợi
+
+---
+
 ## 📦 Cập nhật tính năng
 
-### 🆕 v1.2.9
+### ✅  v1.2.9
 
 - 🔐 **Thêm chức năng mật khẩu bảo vệ ứng dụng**
   - Tất cả thao tác quan trọng như *xóa hợp đồng* hoặc *truy cập cài đặt* đều yêu cầu nhập mật khẩu
