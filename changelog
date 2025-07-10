@@ -1,6 +1,35 @@
-# 📜 CHANGELOG
+# 📜 CHANGELOG  
+Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 
-Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
+---
+
+## [1.3] – 2025-07-10  
+### 🎨 Giao diện nâng cao & thống kê chi tiết
+
+- ✨ **Nâng cấp giao diện các hộp thoại thông báo**:
+  - Hộp thoại Yes/No đẹp hơn, bố cục rõ ràng, không bị che nút
+  - Thông báo in lịch sử đóng lãi rõ ràng hơn nếu đang mở file
+
+- 🖼️ **Tối ưu lại giao diện thêm hợp đồng và ghi chú**:
+  - Màu nền dịu, font chữ dễ đọc, bo góc đẹp mắt
+  - Đồng bộ với giao diện thống nhất toàn phần mềm
+
+- 📦 **Thêm trường `LaiDenHomNay` vào CSDL**:
+  - Ghi lại số lãi đến thời điểm hiện tại (đã trừ các kỳ đã đóng)
+  - Giúp hiển thị chính xác tổng lãi còn lại cần thu
+
+- 📊 **Cập nhật tìm kiếm nâng cao**:
+  - Hiển thị **tổng tiền đang cho vay**, **tổng lãi đã thu**, **tổng lãi đến hôm nay**
+  - Tính cả `TienKhac` vào tổng lãi đã thu
+
+- ✅ **Thêm checkbox “Bao gồm hợp đồng đã hết hiệu lực”**:
+  - Mặc định chỉ lọc hợp đồng còn hiệu lực
+  - Khi bật sẽ hiển thị cả hợp đồng đã chuộc, đã thanh lý
+  - Sử dụng view để tối ưu hiệu suất lọc và tìm kiếm
+
+- ⚙️ **Tối ưu cơ sở dữ liệu và câu lệnh SQL**:
+  - Bổ sung `VIEW_HopDong_ConHieuLuc` và `VIEW_HopDong_HetHieuLuc`
+  - Tự động cập nhật schema nếu thiếu cột
 
 ---
 
@@ -10,130 +39,75 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 - 💰 **Chuẩn hóa định dạng số tiền** theo chuẩn quốc tế:
   - Dùng dấu **phẩy `,`** để phân cách **hàng nghìn**
   - Dùng dấu **chấm `.`** để phân cách **phần thập phân**
-  - Áp dụng cho: hợp đồng PDF, lịch sử đóng lãi, giao diện nhập liệu
 
-- 🌏 **Tương thích với mọi ngôn ngữ hệ điều hành** (Windows tiếng Việt, tiếng Anh,...):
-  - Không còn lỗi định dạng số dù hệ thống đặt ngôn ngữ khác nhau
-  - Số tiền luôn hiển thị chính xác theo chuẩn cố định (CultureInfo.InvariantCulture)
+- 🌏 **Tương thích với mọi ngôn ngữ hệ điều hành** (Windows tiếng Việt, tiếng Anh,...)
 
-- 📅 **Cải tiến định dạng ngày rõ ràng hơn**:
-  - Dùng định dạng `dd - MM - yyyy` thay vì `dd/MM/yyyy`
-  - Phù hợp với mẫu in hợp đồng và lịch sử đóng lãi, đồng bộ toàn hệ thống
+- 📅 **Cải tiến định dạng ngày rõ ràng hơn**: `dd - MM - yyyy`
 
-- 🎨 **Căn giữa nội dung trong ô chọn ngày (`DateTimePicker`)**:
-  - Tự động thêm khoảng trắng hoặc NBSP để canh giữa chính xác
-  - Không phụ thuộc vào độ phân giải hay font hệ thống
-
-- 🛠️ **Bổ sung hàm định dạng số và ngày nhất quán**:
-  - Các hàm FormatTextBox, TryParse, FormatNumber đều sử dụng chuẩn Mỹ (US)
-  - Giao diện hoạt động ổn định cả khi hệ điều hành đặt tiếng Việt hoặc English
+- 🛠️ **Bổ sung hàm định dạng số và ngày nhất quán**
 
 ---
 
 ## [1.2.9] – 2025-07-06  
 ### 🔐 Bảo vệ phần mềm bằng mật khẩu
 
-- 🧩 **Thêm tính năng đặt mật khẩu đăng nhập ứng dụng**:
-  - Người dùng có thể tự đặt mật khẩu mới tại mục “Cài đặt”
-  - Lưu trữ mật khẩu bảo mật trong hệ thống
-  - Hiển thị thông báo khi cài thành công và **xuất ra mật khẩu mới để người dùng ghi nhớ**
-
-- 🛡️ **Yêu cầu nhập đúng mật khẩu trước khi thực hiện các thao tác quan trọng** *(đã có sẵn từ trước)* như:
-  - Xóa hợp đồng
-  - Đổi mật khẩu hệ thống
-  - Truy cập mục quản lý nâng cao
-
-- ✅ **Xác nhận kỹ khi đổi mật khẩu**:
-  - Yêu cầu nhập lại mật khẩu 2 lần
-  - Cảnh báo nếu không trùng khớp để tránh mất quyền truy cập
-
-- 👁️ **Form nhập mật khẩu được thiết kế rõ ràng, giao diện hiện đại**:
-  - Tự động căn giữa
-  - Giao diện bo tròn, font chữ lớn dễ đọc
-  - Nút “Xác nhận” và “Thoát” hiển thị rõ ràng
+- 🧩 Đặt mật khẩu đăng nhập, xác nhận 2 lần khi thay đổi
+- 👁️ Form mật khẩu hiện đại, rõ ràng, bo tròn
 
 ---
 
 ## [1.2.8] – 2025-07-06  
 ### ⚙️ Cập nhật tự động & cải thiện giao diện tải
 
-- 🔄 **Thêm tính năng cập nhật hoàn toàn tự động**:
-  - Tự động **tải bản mới từ GitHub**
-  - **Tự chạy cài đặt** mà không cần thao tác thủ công
-  - Tự động **khởi động lại phần mềm sau khi cài xong**
-  - **Không yêu cầu kỹ thuật** – ai cũng có thể cập nhật dễ dàng
-
-- 🎨 **Tối ưu giao diện khi tải bản cập nhật**:
-  - Thanh tiến trình hiển thị % rõ ràng, không nhảy liên tục gây rối mắt
-  - Dòng trạng thái như “Đang cài đặt...” rõ ràng, dễ hiểu
-  - Form luôn nằm trên cùng để người dùng không bị bỏ sót
-
-- 🧹 **Điều chỉnh bố cục một số form**:
-  - Căn chỉnh lại vị trí các nút (OK, Hủy, Xác nhận…) hợp lý hơn
-  - Trải nghiệm mượt và thống nhất trong toàn hệ thống
+- 🔄 Tự động tải và cài đặt bản mới từ GitHub
+- 🎨 Giao diện tải đẹp mắt, rõ ràng
+- 🧹 Căn chỉnh lại vị trí các nút trong form
 
 ---
 
 ## [1.2.7] – 2025-07-05  
-### 🧠 Lịch sử thao tác dễ đọc, định dạng ngày đồng bộ
+### 🧠 Lịch sử thao tác dễ đọc
 
-- 📅 **Chuẩn hóa toàn bộ định dạng ngày** thành `dd-MM-yyyy`, áp dụng trên:
-  - Lịch sử đóng lãi
-  - Ghi chú thao tác hợp đồng
-  - Hợp đồng PDF
-- 🧾 **Lịch sử thao tác được trình bày rõ ràng hơn**:
-  - Các mục như `GIA HẠN`, `CHUỘC`, `TẠO`, `SỬA`, `CẬP NHẬT TÌNH TRẠNG`, `ĐÓNG LÃI`… được chia thành **các đoạn dễ nhìn** với tiêu đề **căn giữa bằng dấu gạch**
-  - Các dòng thông tin như "Tiền vay", "Tiền nợ còn lại", "Kỳ lãi"… được **căn đều bằng ký tự gạch dưới `__`** giúp đồng nhất
-- 📝 Khi gia hạn, hệ thống ghi rõ số ngày gia hạn và đơn vị kỳ lãi (ví dụ: 30 ngày, kỳ lãi: tháng)
-- ✅ Cập nhật các hàm ghi lịch sử để thống nhất hiển thị nội dung và căn chỉnh, không cần viết lại từng nơi
+- 📅 Định dạng ngày `dd-MM-yyyy` toàn hệ thống
+- 🧾 Ghi chú định dạng rõ ràng, dễ nhìn
+- ✅ Ghi rõ số ngày gia hạn và kỳ lãi
 
 ---
 
 ## [1.2.6] – 2025-07-04  
 ### 📊 Ghi nhận thống kê cố định theo tháng
 
-- 🧾 **Ghi lại thống kê tổng tiền đã thu và số hợp đồng đã thu** của từng tháng → giúp dễ dàng đối chiếu kết quả kinh doanh theo thời gian  
-- 🗃️ Dữ liệu thống kê từng tháng **được lưu cố định tại thời điểm chọn tháng**  
-    → Sau đó dù có ❌ xóa hợp đồng đã tất toán hay 🔁 chỉnh sửa lãi, thì **dữ liệu cũ vẫn không thay đổi**  
-- 👁️ Hai dòng “Tổng tiền đã thu” và “Tổng hợp đồng đã thu” **chỉ hiển thị khi đã chọn một tháng cụ thể** trong danh sách  
-- 💬 Cập nhật giao diện hiển thị thống kê, sắp xếp rõ ràng hơn  
+- 🧾 Ghi tổng tiền đã thu và số hợp đồng theo tháng
+- 🗃️ Dữ liệu cố định, không bị thay đổi khi cập nhật hợp đồng sau này
 
 ---
 
 ## [1.2.5] – 2025-07-03  
 ### 🎯 Cải thiện quản lý hợp đồng & lịch sử đóng lãi
 
-- 📢 **Cảnh báo rõ ràng** khi click vào hợp đồng đã bị xóa – không còn lỗi truy vấn cơ sở dữ liệu  
-- 🧹 **Sửa bộ lọc** hiển thị chính xác các hợp đồng có trạng thái `Đã chuộc`, `Đã chuộc sớm`  
-- 🎨 **Bổ sung màu sắc cho bảng Lịch sử đóng lãi**:
-  - 🔴 **Đỏ**: Quá hạn / Tới hạn hôm nay (chưa đóng)
-  - 🟢 **Xanh nhạt**: Tới hạn hôm nay đã đóng / Đang vay
-  - 🟡 **Vàng**: Sắp tới hạn
-  - ⚪ **Xám nhạt**: Đã đóng tất cả các kỳ
-  - ⚫ **Xám đậm**: Hợp đồng đã chuộc / Chuộc sớm  
-- 🖼️ **Thêm icon minh họa** cho từng dòng trong bảng lịch sử đóng lãi → giúp dễ phân biệt và nổi bật thông tin hơn  
-- 📅 **Thêm cột "Tổng thời gian vay (ngày)"** trong bảng lịch sử hợp đồng – thuận tiện cho việc thống kê và đánh giá thời gian vay thực tế  
-- 🔁 **Tự động reload form lịch sử đóng lãi** sau khi chuộc hoặc gia hạn, thay vì yêu cầu tắt mở lại  
-- 🚫 **Ngăn không cho phép gia hạn** nếu hợp đồng đã hoàn tất toàn bộ kỳ (hiển thị cảnh báo “Không thể tìm thấy kỳ gia hạn”)
+- 📢 Cảnh báo khi mở hợp đồng đã xóa
+- 🧹 Sửa bộ lọc hợp đồng đã chuộc
+- 🎨 Bảng lịch sử đóng lãi có màu, icon minh họa
+- 📅 Thêm cột “Tổng thời gian vay (ngày)”
+- 🔁 Tự reload sau khi gia hạn/chuộc
 
 ---
 
 ## [1.2.4] – 2025-07-02  
 ### 🔍 Tìm kiếm thông minh & tự động hóa kỳ lãi
 
-- 🔁 **Tự động tạo kỳ lãi đầu tiên** ngay khi thêm hoặc sửa hợp đồng  
-- 🔎 **Tìm kiếm không dấu** theo tên khách hàng (gõ "khoa" ra "Việt Khoa")  
-- ☁️ **Kiểm tra phiên bản phần mềm online** nếu có mạng  
-- 🗃️ **Tự cập nhật cấu trúc CSDL** nếu bản cũ → không mất dữ liệu  
-- 📅 Cải tiến logic ngày: kỳ đầu luôn khớp ngày vay hoặc gần nhất
+- 🔁 Tự tạo kỳ lãi đầu tiên
+- 🔎 Tìm kiếm không dấu theo tên khách hàng
+- ☁️ Kiểm tra phiên bản phần mềm online
+- 🗃️ Tự cập nhật cấu trúc CSDL
 
 ---
 
 ## [1.2.2] – 2025-07-01  
 ### 🧾 Cập nhật in hợp đồng & lịch sử đóng lãi
 
-- 📝 **Sửa lỗi đọc số tiền bằng chữ** (bỏ "không trăm lẻ..." không tự nhiên)  
-- 📅 In lịch sử: hiển thị **ngày bắt đầu / kết thúc** đúng định dạng `dd/MM/yyyy`  
+- 📝 Sửa lỗi đọc số tiền bằng chữ
+- 📅 Định dạng ngày `dd/MM/yyyy` cho in lịch sử
 - 📂 In PDF lưu trong thư mục `Print/HopDong` và `Print/LichSu`
 
 ---
@@ -141,32 +115,29 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**.
 ## [1.2.1] – 2025-07-01  
 ### 🔧 Cập nhật nhỏ nhưng quan trọng
 
-- ✅ Thống kê chính xác: hợp đồng đang vay, tiền cho vay, lãi thu trong tháng  
-- 🖨️ Giao diện PDF (QuestPDF) căn chỉnh đẹp như mẫu thật  
-- 💄 Tinh chỉnh font chữ và canh lề trong giao diện
+- ✅ Thống kê hợp đồng đang vay, lãi thu trong tháng
+- 🖨️ PDF Quest chỉnh đẹp theo mẫu thật
+- 💄 Tinh chỉnh font, căn lề giao diện
 
 ---
 
 ## [1.1] – 2025-06-30  
-### ✨ Phiên bản chính thức đầu tiên (ổn định)
+### ✨ Phiên bản chính thức đầu tiên
 
-- Giao diện hiện đại, font Montserrat  
-- Quản lý hợp đồng vay: thêm, sửa  
-- Tính lãi theo kỳ, hiển thị số ngày chưa đóng  
-- Lịch sử đóng lãi chi tiết, hỗ trợ gia hạn  
-- Tìm kiếm nâng cao: tên, mã, ngày vay, có phân trang  
-- In hợp đồng + lịch sử bằng Word hoặc PDF  
-- Bảo vệ bằng key bản quyền gắn HWID  
-- Thống kê tổng tiền vay, số hợp đồng, lãi đã thu  
-- Tự động tính lãi đến hôm nay để hỗ trợ chuộc
+- Giao diện hiện đại
+- Quản lý hợp đồng vay đầy đủ
+- Tính lãi, phân kỳ, lịch sử
+- Tìm kiếm nâng cao, phân trang
+- In PDF hợp đồng, lịch sử
+- Bản quyền HWID
+- Thống kê tiền vay, số hợp đồng, lãi thu
 
 ---
 
 ## [1.0] – 2025-06-15  
 ### 🧪 Phiên bản thử nghiệm nội bộ
 
-- Tạo & lưu hợp đồng bằng SQLite  
-- Giao diện khởi tạo đơn giản  
-- Có tính lãi theo kỳ  
-- In hợp đồng bằng mẫu Word  
+- Tạo & lưu hợp đồng bằng SQLite
+- Giao diện cơ bản
+- Có tính lãi kỳ, in Word
 - Chưa có bản quyền, phân trang, tìm kiếm
