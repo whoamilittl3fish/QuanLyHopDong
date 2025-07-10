@@ -1,19 +1,21 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.2.10*
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.3*
 
-> Phần mềm quản lý cầm đồ đơn giản, giao diện hiện đại, dễ sử dụng.  
-> Phù hợp cho cửa hàng nhỏ đến vừa – tối ưu thao tác, in ấn và quản lý lãi suất.
+> Phần mềm quản lý cầm đồ đơn giản, hiện đại, dễ sử dụng.  
+> Phù hợp cho cửa hàng từ nhỏ đến vừa – tối ưu thao tác, in ấn, và quản lý lãi suất linh hoạt.
 
 ---
 
 ## 📥 Tải xuống & cài đặt
 
-- 🔗 **Link tải**: [github.com/whoamilittl3fish/QuanLyHopDong/releases](https://github.com/whoamilittl3fish/QuanLyHopDong/releases)
-- 🛠 **Cài đặt**:
-  1. Truy cập link trên
-  2. Kéo xuống phần **Assets** của phiên bản mới nhất
-  3. Tải file **`Setup_QuanLyHopDong.exe`**
-  4. Chạy để cài đặt phần mềm
-  5. Nhập key bản quyền để sử dụng đầy đủ tính năng
+- 🔗 **Tải phần mềm tại**: [github.com/whoamilittl3fish/QuanLyHopDong/releases](https://github.com/whoamilittl3fish/QuanLyHopDong/releases)
+
+### 🛠 Các bước cài đặt:
+
+1. Truy cập link trên
+2. Kéo xuống phần **Assets** của phiên bản mới nhất
+3. Tải file **`Setup_QuanLyHopDong.exe`**
+4. Chạy để cài đặt phần mềm
+5. Nhập key bản quyền để sử dụng đầy đủ tính năng
 
 ---
 
@@ -24,7 +26,7 @@
 - **GitHub**: [github.com/whoamilittl3fish/QuanLyHopDong](https://github.com/whoamilittl3fish/QuanLyHopDong)
 
 > 💬 Mọi ý kiến đóng góp vui lòng gửi email hoặc tạo Issue trên GitHub.  
-🙏 Cảm ơn bạn đã sử dụng phần mềm!
+🙏 Xin chân thành cảm ơn bạn đã sử dụng phần mềm!
 
 ---
 
@@ -36,9 +38,9 @@
 - Tìm kiếm không dấu, lọc theo tên, mã, loại tài sản, tình trạng, khoảng thời gian
 - Quản lý trạng thái: Đang vay, Sắp tới hạn, Quá hạn, Tất toán, Đã chuộc
 - In hợp đồng và lịch sử đóng lãi bằng mẫu Word hoặc PDF (QuestPDF)
-- Thống kê tổng lãi thu/tháng, tổng hợp đồng, tổng tiền đang vay
-- Hệ thống bản quyền vĩnh viễn theo phần cứng
-- Hỗ trợ định dạng số tiền và ngày tháng chuẩn quốc tế
+- Thống kê tổng lãi thu trong tháng, tổng hợp đồng, tổng tiền đang cho vay
+- Hệ thống bản quyền vĩnh viễn theo phần cứng (HWID), có mã hóa
+- Hỗ trợ định dạng số tiền và ngày tháng chuẩn quốc tế (`dd-MM-yyyy`)
 - Giao diện bo tròn, dễ dùng, tối ưu cho Full HD (1920x1080)
 
 ---
@@ -59,63 +61,110 @@
 
 ## 💡 Ghi chú sử dụng
 
-- **Tạo hợp đồng**: lưu người tạo và thời gian  
-- **Sửa hợp đồng**: chỉ khi chưa có kỳ lãi nào  
-- **Đóng lãi**: ghi chi tiết từng kỳ  
-- **Gia hạn**: tự thêm kỳ tiếp theo, đánh dấu kỳ đầu chưa đóng  
-- **Tất toán**: kết thúc hợp đồng, không thể chỉnh sửa
+- **Tạo hợp đồng**: lưu người tạo và thời gian tạo  
+- **Sửa hợp đồng**: chỉ khi chưa có kỳ lãi nào được đóng  
+- **Đóng lãi**: ghi chi tiết từng kỳ, cập nhật đúng theo ngày  
+- **Gia hạn**: tự động thêm kỳ tiếp theo, đánh dấu kỳ đầu chưa đóng  
+- **Tất toán**: kết thúc hợp đồng, không thể chỉnh sửa nữa
 
 ---
 
 ## 🖥️ Yêu cầu hệ thống
 
-- Windows 10 trở lên  
-- .NET Desktop Runtime 8.0+  
-- Không cần cài SQL Server – phần mềm dùng SQLite tích hợp
+- Hệ điều hành: Windows 10 hoặc cao hơn  
+- Cần cài: [.NET Desktop Runtime 8.0+](https://dotnet.microsoft.com/en-us/download/dotnet/8.0/runtime)  
+- Không cần SQL Server – phần mềm dùng SQLite tích hợp sẵn
 
 ---
 
 ## 📦 Cập nhật tính năng
 
-### 🆕 v1.2.10
+### 🆕 v1.3 (10/07/2025)
 
-- 💰 **Chuẩn hóa định dạng số tiền theo chuẩn quốc tế**
-  - Dấu **phẩy `,`** phân cách hàng nghìn, **dấu chấm `.`** cho thập phân
-  - Áp dụng cho hợp đồng PDF, lịch sử đóng lãi, và các ô nhập liệu tiền
+- 🖼️ **Cải tiến toàn bộ giao diện**
+  - Giao diện thêm hợp đồng, hộp thoại Yes/No, form ghi chú bo góc, hiện đại
+  - Tông màu sáng, đồng bộ, hiển thị rõ ràng trên Full HD
+  - Cảnh báo chi tiết khi tệp PDF đang bị mở lúc xuất hợp đồng
 
-- 🌐 **Tương thích đa ngôn ngữ hệ điều hành**
-  - Hoạt động ổn định trên Windows tiếng Việt, tiếng Anh,...
-  - Dữ liệu luôn hiển thị đúng bất kể ngôn ngữ hệ thống
+- 📊 **Thống kê nâng cao khi tìm kiếm**
+  - Tổng tiền đang cho vay  
+  - Tổng lãi đã thu (bao gồm tiền khác)  
+  - Tổng lãi đến hôm nay (đã trừ các kỳ đóng trước)
 
-- 📅 **Cải tiến định dạng ngày**
-  - Dùng định dạng: **`dd - MM - yyyy`** (ví dụ: `01 - 01 - 2025`)
-  - Căn giữa nội dung ngày trong `DateTimePicker`
-  - Dễ đọc, đồng bộ giữa giao diện và in ấn
+- ✅ **Thêm checkbox lọc hợp đồng hết hiệu lực**
+  - Cho phép hiển thị cả hợp đồng đã chuộc hoặc thanh lý
+  - Tối ưu với View riêng và truy vấn transaction nhanh
 
-- 🖥️ **Tối ưu giao diện chọn ngày**
-  - Định dạng ngày ổn định, hiển thị rõ
-  - Có thể chọn nhanh bằng popup hoặc bàn phím
+- 🔄 **Cập nhật dữ liệu `LaiDenHomNay`**
+  - Tự động lưu khi đóng lãi
+  - Trừ đúng các kỳ đã thanh toán
+
+- ⏳ **Phân trang tối ưu theo thời gian tạo**
+  - Truy vấn nhanh hơn, sắp xếp chính xác theo `CreatedAt`
+
+- 🧾 **In ấn chuẩn chỉnh**
+  - Hỗ trợ định dạng ngày `dd-MM-yyyy`
+  - Đọc số tiền bằng chữ tiếng Việt tự nhiên
 
 ---
 
-### 🕘 Lịch sử phiên bản trước
+### ✅ v1.2.10 – Chuẩn hóa tiền tệ & ngày tháng
 
-#### ✅ v1.2.9 – Bảo mật ứng dụng bằng mật khẩu
-- Đặt mật khẩu đăng nhập, yêu cầu xác thực khi thực hiện thao tác quan trọng
-- Giao diện đổi mật khẩu hiện đại, xác nhận kỹ lưỡng
+- 💰 Định dạng số tiền theo chuẩn quốc tế: `1,000,000.00`
+- 🌐 Tương thích nhiều ngôn ngữ hệ điều hành
+- 📅 Hiển thị ngày kiểu `dd - MM - yyyy`, căn giữa trong DateTimePicker
+- 🖥️ Giao diện chọn ngày ổn định, dễ dùng
 
-#### ✅ v1.2.8 – Tự động cập nhật phần mềm
-- Cho phép tải & cài đặt bản mới từ GitHub chỉ với 1 nút bấm
-- Giao diện cập nhật có hiệu ứng, hiển thị tiến trình
+---
 
-#### ✅ v1.2.7 – Chuẩn hóa định dạng ngày
-- Đồng bộ định dạng `dd-MM-yyyy` cho toàn hệ thống
-- Lịch sử thao tác rõ ràng, căn lề đều, nhóm theo thời gian
+### ✅ v1.2.9 – Bảo mật bằng mật khẩu
 
-#### ✅ v1.2.6 – Thống kê cố định theo tháng
-- Ghi nhận tổng tiền thu & số hợp đồng đã thu trong từng tháng
-- Dữ liệu thống kê không thay đổi khi sửa/xoá hợp đồng
+- Đặt mật khẩu đăng nhập
+- Xác nhận thao tác quan trọng
+- Giao diện đổi mật khẩu chuyên nghiệp
 
-#### ✅ v1.2.5 – Tối ưu trải nghiệm người dùng
-- Thông báo lỗi rõ ràng hơn, tối ưu bộ lọc hợp đồng
-- Cập nhật màu sắc bảng lịch sử dễ nhận biết trạng thái
+---
+
+### ✅ v1.2.8 – Cập nhật phần mềm tự động
+
+- Tải bản mới từ GitHub
+- Giao diện cập nhật có hiệu ứng & hiển thị tiến trình
+
+---
+
+### ✅ v1.2.7 – Chuẩn hóa định dạng ngày
+
+- Đồng bộ `dd-MM-yyyy` toàn hệ thống
+- Lịch sử rõ ràng, nhóm theo thời gian
+
+---
+
+### ✅ v1.2.6 – Thống kê theo tháng
+
+- Ghi nhận doanh thu theo từng tháng cố định
+- Dữ liệu không thay đổi khi sửa hoặc xoá hợp đồng
+
+---
+
+### ✅ v1.2.5 – Tối ưu trải nghiệm người dùng
+
+- Thông báo lỗi rõ ràng
+- Màu sắc bảng đóng lãi dễ nhận biết
+
+---
+
+### ✅ v1.1 – Phiên bản chính thức đầu tiên
+
+- Quản lý hợp đồng, kỳ lãi, lịch sử đóng lãi
+- Tính lãi tự động
+- In hợp đồng, lọc tìm kiếm, thống kê cơ bản
+
+---
+
+### 🔖 v1.0 – Bản thử nghiệm nội bộ
+
+- Giao diện đơn giản
+- Chưa có bản quyền
+- Quản lý hợp đồng cơ bản
+
+---
