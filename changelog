@@ -3,6 +3,16 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 
 ---
 
+## [1.3.1] – 2025-07-15  
+### 🧮 Chuẩn hóa so sánh số tiền – xử lý sai số số thực
+
+- ✅ **Thêm sai số cho so sánh số tiền (`SoTienDaDong` vs `SoTienPhaiDong`)**:  
+  - Do sử dụng kiểu `decimal` hoặc số thực, có thể phát sinh sai số rất nhỏ khi lưu (ví dụ `50,000` thành `50,000.000000001`)
+  - Áp dụng ngưỡng sai số tối đa **999 đồng** khi so sánh
+  - Giúp cập nhật tình trạng đóng lãi chính xác, không đánh dấu sai trạng thái
+
+---
+
 ## [1.3] – 2025-07-10  
 ### 🎨 Giao diện nâng cao & thống kê chi tiết
 
