@@ -93,8 +93,8 @@
 
 ---
 
-### ✅ v1.3 (10/07/2025)
-
+### ✅ v1.3
+> 📅 *10/07/2025*
 - 🖼️ **Cải tiến toàn bộ giao diện**
   - Giao diện thêm hợp đồng, hộp thoại Yes/No, form ghi chú bo góc, hiện đại
   - Tông màu sáng, đồng bộ, hiển thị rõ ràng trên Full HD
