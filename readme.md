@@ -86,15 +86,10 @@
 ### 🆕 v1.3.1 – Cải tiến cài đặt & mở ứng dụng tự động  
 > 📅 *15/07/2025*
 
-- 🛠️ **Tích hợp trình cài đặt .NET Runtime 8.0**
-  - Tự động kiểm tra và cài đặt nếu máy chưa có
-  - Nếu không thể cài, sẽ hiển thị link chính thức từ Microsoft để người dùng tải
-
-- 🚀 **Tự động mở lại ứng dụng sau khi cài đặt**
-  - Hỗ trợ khởi chạy phần mềm kể cả khi cài silent
-
-- 🧹 **Tối ưu gói cài**
-  - Xoá file tạm sau khi dùng, giảm dung lượng installer
+- ✅ **Thêm sai số cho so sánh số tiền (`SoTienDaDong` vs `SoTienPhaiDong`)**:  
+  - Do sử dụng kiểu `decimal` hoặc số thực, có thể phát sinh sai số rất nhỏ khi lưu (ví dụ `50,000` thành `50,000.000000001`)
+  - Áp dụng ngưỡng sai số tối đa **999 đồng** khi so sánh
+  - Giúp cập nhật tình trạng đóng lãi chính xác, không đánh dấu sai trạng thái
 
 ---
 
