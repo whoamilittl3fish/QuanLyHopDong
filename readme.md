@@ -1,4 +1,4 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.3.1*
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.0*
 
 > Phần mềm quản lý cầm đồ đơn giản, hiện đại, dễ sử dụng.  
 > Phù hợp cho cửa hàng từ nhỏ đến vừa – tối ưu thao tác, in ấn, và quản lý lãi suất linh hoạt.  
@@ -83,7 +83,26 @@
 
 ## 📦 Cập nhật tính năng
 
-### 🆕 v1.3.1 – Cải tiến cài đặt & mở ứng dụng tự động  
+---
+
+### ✅ v1.4 – Tối ưu hiệu suất & trải nghiệm người dùng  
+> 📅 *19/07/2025*
+
+- 🔁 **Tự động đưa `LaiDenHomNay` về 0** cho hợp đồng đã hết hiệu lực (tình trạng -1, -2), giúp thống kê và báo cáo chính xác hơn.
+- 🔢 **Cải thiện nhập liệu số tiền và số điện thoại**:
+  - Tự động định dạng hàng nghìn khi nhập
+  - Giảm độ "nháy" khi gõ
+  - Áp dụng cho các trường như: tiền vay, số điện thoại, CCCD…
+- 📄 **Tối ưu phân trang khi tìm kiếm**:
+  - Phân trang mượt hơn, không bị lệch khi thay đổi bộ lọc
+  - Tự động khoá nút chuyển trang khi đang ở trang đầu/cuối
+- ⚙️ **Tối ưu kiểm tra mã hợp đồng trong CSDL**:
+  - Tăng tốc độ kiểm tra, tránh lỗi truy vấn
+  - Hạn chế mở kết nối không cần thiết khi đã có sẵn
+
+---
+
+### ✅ v1.3.1 – Cải tiến cài đặt & mở ứng dụng tự động  
 > 📅 *15/07/2025*
 
 - ✅ **Thêm sai số cho so sánh số tiền (`SoTienDaDong` vs `SoTienPhaiDong`)**:  
