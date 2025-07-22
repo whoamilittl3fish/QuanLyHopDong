@@ -1,4 +1,4 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.0*
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.1*
 
 > Phần mềm quản lý cầm đồ đơn giản, hiện đại, dễ sử dụng.  
 > Phù hợp cho cửa hàng từ nhỏ đến vừa – tối ưu thao tác, in ấn, và quản lý lãi suất linh hoạt.  
@@ -63,16 +63,6 @@
 
 ---
 
-## 💡 Ghi chú sử dụng
-
-- **Tạo hợp đồng**: lưu người tạo và thời gian tạo  
-- **Sửa hợp đồng**: chỉ khi chưa có kỳ lãi nào được đóng  
-- **Đóng lãi**: ghi chi tiết từng kỳ, cập nhật đúng theo ngày  
-- **Gia hạn**: tự động thêm kỳ tiếp theo, đánh dấu kỳ đầu chưa đóng  
-- **Tất toán**: kết thúc hợp đồng, không thể chỉnh sửa nữa
-
----
-
 ## 🖥️ Yêu cầu hệ thống
 
 - Hệ điều hành: Windows 10 hoặc cao hơn  
@@ -83,121 +73,31 @@
 
 ## 📦 Cập nhật tính năng
 
+### ✅ v1.4.1 – Hoàn thiện giao diện & bộ cài đặt  
+> 📅 *20/07/2025*
+
+- 🪟 Cập nhật tên form hiển thị đúng trên thanh tác vụ
+- 📦 Tối ưu bộ cài đặt: kiểm tra & cài đặt .NET Runtime 8.0 chính xác
+- 🧹 Dọn dẹp mã nguồn cài đặt, tăng tính ổn định khi triển khai
+
 ---
 
 ### ✅ v1.4 – Tối ưu hiệu suất & trải nghiệm người dùng  
 > 📅 *19/07/2025*
 
-- 🔁 **Tự động đưa `LaiDenHomNay` về 0** cho hợp đồng đã hết hiệu lực (tình trạng -1, -2), giúp thống kê và báo cáo chính xác hơn.
-- 🔢 **Cải thiện nhập liệu số tiền và số điện thoại**:
-  - Tự động định dạng hàng nghìn khi nhập
-  - Giảm độ "nháy" khi gõ
-  - Áp dụng cho các trường như: tiền vay, số điện thoại, CCCD…
-- 📄 **Tối ưu phân trang khi tìm kiếm**:
-  - Phân trang mượt hơn, không bị lệch khi thay đổi bộ lọc
-  - Tự động khoá nút chuyển trang khi đang ở trang đầu/cuối
-- ⚙️ **Tối ưu kiểm tra mã hợp đồng trong CSDL**:
-  - Tăng tốc độ kiểm tra, tránh lỗi truy vấn
-  - Hạn chế mở kết nối không cần thiết khi đã có sẵn
+- Tự động đưa `LaiDenHomNay` về 0 cho hợp đồng đã chuộc/thanh lý
+- Cải thiện nhập liệu số tiền, số điện thoại (hiển thị hàng nghìn)
+- Tối ưu phân trang khi tìm kiếm, tự động khóa nút chuyển trang
+- Tăng tốc kiểm tra mã hợp đồng trong CSDL
 
 ---
 
-### ✅ v1.3.1 – Cải tiến cài đặt & mở ứng dụng tự động  
-> 📅 *15/07/2025*
+### 🔹 Các phiên bản trước v1.4 (rút gọn)
 
-- ✅ **Thêm sai số cho so sánh số tiền (`SoTienDaDong` vs `SoTienPhaiDong`)**:  
-  - Do sử dụng kiểu `decimal` hoặc số thực, có thể phát sinh sai số rất nhỏ khi lưu (ví dụ `50,000` thành `50,000.000000001`)
-  - Áp dụng ngưỡng sai số tối đa **999 đồng** khi so sánh
-  - Giúp cập nhật tình trạng đóng lãi chính xác, không đánh dấu sai trạng thái
-
----
-
-### ✅ v1.3
-> 📅 *10/07/2025*
-- 🖼️ **Cải tiến toàn bộ giao diện**
-  - Giao diện thêm hợp đồng, hộp thoại Yes/No, form ghi chú bo góc, hiện đại
-  - Tông màu sáng, đồng bộ, hiển thị rõ ràng trên Full HD
-  - Cảnh báo chi tiết khi tệp PDF đang bị mở lúc xuất hợp đồng
-
-- 📊 **Thống kê nâng cao khi tìm kiếm**
-  - Tổng tiền đang cho vay  
-  - Tổng lãi đã thu (bao gồm tiền khác)  
-  - Tổng lãi đến hôm nay (đã trừ các kỳ đóng trước)
-
-- ✅ **Thêm checkbox lọc hợp đồng hết hiệu lực**
-  - Cho phép hiển thị cả hợp đồng đã chuộc hoặc thanh lý
-  - Tối ưu với View riêng và truy vấn transaction nhanh
-
-- 🔄 **Cập nhật dữ liệu `LaiDenHomNay`**
-  - Tự động lưu khi đóng lãi
-  - Trừ đúng các kỳ đã thanh toán
-
-- ⏳ **Phân trang tối ưu theo thời gian tạo**
-  - Truy vấn nhanh hơn, sắp xếp chính xác theo `CreatedAt`
-
-- 🧾 **In ấn chuẩn chỉnh**
-  - Hỗ trợ định dạng ngày `dd-MM-yyyy`
-  - Đọc số tiền bằng chữ tiếng Việt tự nhiên
-
----
-
-### ✅ v1.2.10 – Chuẩn hóa tiền tệ & ngày tháng
-
-- 💰 Định dạng số tiền theo chuẩn quốc tế: `1,000,000.00`
-- 🌐 Tương thích nhiều ngôn ngữ hệ điều hành
-- 📅 Hiển thị ngày kiểu `dd - MM - yyyy`, căn giữa trong DateTimePicker
-- 🖥️ Giao diện chọn ngày ổn định, dễ dùng
-
----
-
-### ✅ v1.2.9 – Bảo mật bằng mật khẩu
-
-- Đặt mật khẩu đăng nhập
-- Xác nhận thao tác quan trọng
-- Giao diện đổi mật khẩu chuyên nghiệp
-
----
-
-### ✅ v1.2.8 – Cập nhật phần mềm tự động
-
-- Tải bản mới từ GitHub
-- Giao diện cập nhật có hiệu ứng & hiển thị tiến trình
-
----
-
-### ✅ v1.2.7 – Chuẩn hóa định dạng ngày
-
-- Đồng bộ `dd-MM-yyyy` toàn hệ thống
-- Lịch sử rõ ràng, nhóm theo thời gian
-
----
-
-### ✅ v1.2.6 – Thống kê theo tháng
-
-- Ghi nhận doanh thu theo từng tháng cố định
-- Dữ liệu không thay đổi khi sửa hoặc xoá hợp đồng
-
----
-
-### ✅ v1.2.5 – Tối ưu trải nghiệm người dùng
-
-- Thông báo lỗi rõ ràng
-- Màu sắc bảng đóng lãi dễ nhận biết
-
----
-
-### ✅ v1.1 – Phiên bản chính thức đầu tiên
-
-- Quản lý hợp đồng, kỳ lãi, lịch sử đóng lãi
-- Tính lãi tự động
-- In hợp đồng, lọc tìm kiếm, thống kê cơ bản
-
----
-
-### 🔖 v1.0 – Bản thử nghiệm nội bộ
-
-- Giao diện đơn giản
-- Chưa có bản quyền
-- Quản lý hợp đồng cơ bản
+- **v1.3.1**: Thêm sai số khi so sánh số tiền đóng lãi, mở ứng dụng sau cài đặt
+- **v1.3**: Cải tiến giao diện, thống kê nâng cao, lọc hợp đồng hết hiệu lực
+- **v1.2.x**: Bảo mật bằng mật khẩu, cập nhật tự động, chuẩn hóa ngày tháng & tiền tệ
+- **v1.1**: Phiên bản chính thức đầu tiên – quản lý hợp đồng, kỳ lãi, in ấn
+- **v1.0**: Bản thử nghiệm nội bộ – giao diện đơn giản, chưa có bản quyền
 
 ---
