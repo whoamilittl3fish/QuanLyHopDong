@@ -3,6 +3,25 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 
 ---
 
+## [1.4.1] – 2025-07-21  
+### 🛠️ Hoàn thiện giao diện & bộ cài đặt
+
+- 🪟 **Tên form hiển thị chuẩn trên thanh tác vụ**  
+  - Cập nhật tiêu đề cửa sổ ứng dụng để hiển thị đúng tên phần mềm khi chạy  
+  - Giúp người dùng dễ nhận diện và chuyển đổi giữa các cửa sổ
+
+- 📦 **Bộ cài đặt được tối ưu lại**  
+  - Sử dụng đúng file cài đặt `.NET Desktop Runtime 8.0.18` chính thức  
+  - Tự động kiểm tra và cài đặt nếu thiếu, đảm bảo ứng dụng chạy ổn định  
+  - Cấu hình shortcut, biểu tượng và logic khởi chạy sau cài đặt được hoàn thiện
+
+- 🧹 **Dọn dẹp và chuẩn hóa mã nguồn cài đặt**  
+  - Loại bỏ các file không cần thiết khỏi bộ cài  
+  - Tăng tính ổn định và giảm khả năng lỗi khi cài đặt trên máy người dùng
+
+
+---
+
 ## [1.4] – 2025-07-19  
 ### ⚙️ Tối ưu hiệu suất & trải nghiệm nhập liệu
 
