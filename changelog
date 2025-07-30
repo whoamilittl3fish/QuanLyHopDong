@@ -4,19 +4,15 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 ---
 
 ## [1.4.2] – 2025-07-30  
-### ✅ Yêu cầu và tối ưu hoá hiển thị  
+### ✅ Cập nhật gia hạn thêm kỳ ở lịch sử đóng lãi
 
-- 🖥️ **Yêu cầu màn hình Full HD trở lên**  
-  - Giao diện ứng dụng được thiết kế và căn chỉnh phù hợp với độ phân giải 1920x1080  
-  - Cảnh báo nếu độ phân giải màn hình quá thấp gây hiển thị sai lệch
+- ✨ **Cập nhật chức năng gia hạn kỳ cuối mà không đẩy kỳ cũ**  
+  - Cho phép gia hạn bằng cách thêm 1 kỳ mới nối tiếp, giữ nguyên kỳ cũ (không đẩy kỳ về sau nữa)
+  - Giúp linh hoạt xử lý khi khách hàng cần kéo dài thời hạn nhưng chưa đóng lãi kỳ trước
 
-- 🎯 **Tự động tạo biểu tượng (icon) cho ứng dụng**  
-  - Dù máy người dùng chưa có sẵn file icon, bộ cài sẽ tự tạo icon đầy đủ  
-  - Giúp shortcut trên Desktop và Start Menu hiển thị đúng biểu tượng phần mềm
-
-- 🧪 **Kiểm tra chính xác phiên bản .NET Desktop Runtime**  
-  - Tự động phát hiện thiếu `.NET Desktop Runtime 8.0.18 (x64)`  
-  - Dẫn đến đúng link tải chính thức từ Microsoft nếu người dùng cần cài thủ công
+- 💰 **Tự động làm tròn số tiền phải đóng lên bội số của 100**  
+  - Tăng độ chính xác và tiện lợi khi thanh toán  
+  - Giảm sai số khi tính toán và dễ xử lý trong thực tế thu tiền
 
 ---
 
