@@ -73,8 +73,6 @@
 
 - ✨ Thêm chức năng **gia hạn kỳ cuối** mà không đẩy kỳ cũ
 - 💰 Làm tròn số tiền phải đóng lên **bội số của 100**
-- 🧮 Tối ưu tính toán lãi suất theo ngày, chính xác hơn khi kỳ hạn lẻ
-- 🧹 Dọn dẹp mã nguồn xử lý kỳ lãi, dễ bảo trì hơn
 
 ---
 
