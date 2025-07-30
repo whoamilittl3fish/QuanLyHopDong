@@ -3,6 +3,23 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 
 ---
 
+## [1.4.2] – 2025-07-30  
+### ✅ Yêu cầu và tối ưu hoá hiển thị  
+
+- 🖥️ **Yêu cầu màn hình Full HD trở lên**  
+  - Giao diện ứng dụng được thiết kế và căn chỉnh phù hợp với độ phân giải 1920x1080  
+  - Cảnh báo nếu độ phân giải màn hình quá thấp gây hiển thị sai lệch
+
+- 🎯 **Tự động tạo biểu tượng (icon) cho ứng dụng**  
+  - Dù máy người dùng chưa có sẵn file icon, bộ cài sẽ tự tạo icon đầy đủ  
+  - Giúp shortcut trên Desktop và Start Menu hiển thị đúng biểu tượng phần mềm
+
+- 🧪 **Kiểm tra chính xác phiên bản .NET Desktop Runtime**  
+  - Tự động phát hiện thiếu `.NET Desktop Runtime 8.0.18 (x64)`  
+  - Dẫn đến đúng link tải chính thức từ Microsoft nếu người dùng cần cài thủ công
+
+---
+
 ## [1.4.1] – 2025-07-21  
 ### 🛠️ Hoàn thiện giao diện & bộ cài đặt
 
