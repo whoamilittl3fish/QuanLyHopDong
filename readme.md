@@ -1,4 +1,4 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.1*
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.2*
 
 > Phần mềm quản lý cầm đồ đơn giản, hiện đại, dễ sử dụng.  
 > Phù hợp cho cửa hàng từ nhỏ đến vừa – tối ưu thao tác, in ấn, và quản lý lãi suất linh hoạt.  
@@ -9,9 +9,7 @@
 
 ## 📥 Tải xuống & cài đặt
 
-- 🔗 **Tải phần mềm tại**: [github.com/whoamilittl3fish/QuanLyHopDong/releases](https://github.com/whoamilittl3fish/QuanLyHopDong/releases)
-
-### 🛠 Các bước cài đặt:
+- 🔗 **Tải phần mềm tại**: [github.com/whoamilittl3fish/QuanLyHopDong/releases](https Các bước cài đặt:
 
 1. Truy cập link trên
 2. Kéo xuống phần **Assets** của phiên bản mới nhất
@@ -25,9 +23,7 @@
 
 - **SĐT**: 0966 346 694  
 - **Email**: khoa.ngovoviet@gmail.com  
-- **GitHub**: [github.com/whoamilittl3fish/QuanLyHopDong](https://github.com/whoamilittl3fish/QuanLyHopDong)
-
-> 💬 Mọi ý kiến đóng góp vui lòng gửi email hoặc tạo Issue trên GitHub.  
+- **GitHub**: [github.com/whoamilittl3fish/QuanLyHopDong](https://github.com/whop vui lòng gửi email hoặc tạo Issue trên GitHub.  
 🙏 Xin chân thành cảm ơn bạn đã sử dụng phần mềm!
 
 ---
@@ -66,12 +62,21 @@
 ## 🖥️ Yêu cầu hệ thống
 
 - Hệ điều hành: Windows 10 hoặc cao hơn  
-- Cần cài: [.NET Desktop Runtime 8.0+](https://dotnet.microsoft.com/en-us/download/dotnet/8.0/runtime)  
-- Không cần SQL Server – phần mềm dùng SQLite tích hợp sẵn
+- Cần cài: [.NET Desktop Runtime 8.0+](https://dotnet.microsoft.com/en-us/download/dotnet/8.0 sẵn
 
 ---
 
 ## 📦 Cập nhật tính năng
+
+### ✅ v1.4.2 – Gia hạn kỳ cuối & làm tròn tiền lãi  
+> 📅 *30/07/2025*
+
+- ✨ Thêm chức năng **gia hạn kỳ cuối** mà không đẩy kỳ cũ
+- 💰 Làm tròn số tiền phải đóng lên **bội số của 100**
+- 🧮 Tối ưu tính toán lãi suất theo ngày, chính xác hơn khi kỳ hạn lẻ
+- 🧹 Dọn dẹp mã nguồn xử lý kỳ lãi, dễ bảo trì hơn
+
+---
 
 ### ✅ v1.4.1 – Hoàn thiện giao diện & bộ cài đặt  
 > 📅 *20/07/2025*
@@ -91,6 +96,7 @@
 - Tăng tốc kiểm tra mã hợp đồng trong CSDL
 
 ---
+
 
 ### 🔹 Các phiên bản trước v1.4 (rút gọn)
 
