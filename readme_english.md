@@ -66,7 +66,7 @@
 ## 🖥️ System Requirements
 
 - Operating System: Windows 10 or later  
-- Required: [.NET Desktop Runtime 8.0+](https://dotnet.microsoft.com/en-us/download/dotneting Fixes  
+- Required: [.NET Desktop Runtime 8.0+](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.18-windows-x64-installer) Fixes  
 > 📅 *12/08/2025*
 
 - 🖼️ Fixed controls sticking to edges when maximizing the form
