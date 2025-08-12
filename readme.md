@@ -178,6 +178,9 @@
 #### Lịch sử đóng lãi
 <img width="1005" height="1243" alt="image" src="https://github.com/user-attachments/assets/ab252332-c874-4f9f-9fa0-6651cdb6d238" />
 
+### Gia hạn hợp đồng dễ dàng, tăng thêm kỳ và tự động tính tiền lãi kỳ đó kèm thời gian đóng lãi, màu sắc để phân biệt
+<img width="1272" height="707" alt="image" src="https://github.com/user-attachments/assets/e9c32e7d-2d42-4947-ae2a-1e99dc8cbb3d" />
+
 ### Chuộc đồ, kết thúc hợp đồng đơn giản, đầy đủ thông tin
 <img width="903" height="898" alt="image" src="https://github.com/user-attachments/assets/58bb07e3-b4a2-4ade-904b-4a5c7491fa2d" />
 
@@ -186,7 +189,6 @@
 
 ### Xem lại lịch sử thay đổi hợp đồng như ngày tạo, ngày đóng lãi, kỳ nào được đóng, ngày gia hạn hôm đồng, ngày chuộc đồ, lãi bao nhiêu với thời gian cụ thể
 <img width="898" height="893" alt="image" src="https://github.com/user-attachments/assets/69b27212-38dd-4374-92c4-347bd784bedc" />
-
 
 ### Xem thông tin bản cập nhật, cập nhật mọi thứ chỉ với một nút, dễ dàng, đơn giản
 <img width="575" height="246" alt="image" src="https://github.com/user-attachments/assets/189f6d2c-ff20-4df2-84d4-4853e701628e" />
