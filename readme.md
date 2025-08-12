@@ -1,9 +1,13 @@
-### 📘 English README
-📄 [View English version](https://github.com/whoamilittl3fish/QuanLyHopDong/blob/main/readme_english.md)
-> Hiện đại, dễ sử dụng.  
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.3*
+> Phần mềm quản lý cầm đồ đơn giản, hiện đại, dễ sử dụng.  
 > Phù hợp cho cửa hàng từ nhỏ đến vừa – tối ưu thao tác, in ấn, và quản lý lãi suất linh hoạt.  
 > **Chỉ cần nhập thông tin khoản vay, phần mềm sẽ tự động chia kỳ, tính ngày đóng lãi. Đến hạn, hệ thống sẽ hiển thị cảnh báo màu (đỏ, vàng, xanh) để bạn dễ dàng theo dõi.**  
 > 👉 Không còn ghi sổ thủ công – mọi thứ rõ ràng, minh bạch, dễ tra cứu và in ấn.
+
+---
+
+### 📘 English README
+📄 [View English version](https://github.com/whoamilittl3fish/QuanLyHopDong/blob/main/readme_english.md)
 
 ---
 
@@ -25,7 +29,7 @@
 
 - **SĐT**: 0966 346 694  
 - **Email**: khoa.ngovoviet@gmail.com  
-- **GitHub**: [Trang GitHub chính thức](https://g gửi email hoặc tạo Issue trên GitHub.  
+- **GitHub**: [Trang GitHub chính thức](https://github.com/whoamilittl3fish) gửi email hoặc tạo Issue trên GitHub.  
 🙏 Xin chân thành cảm ơn bạn đã sử dụng phần mềm!
 
 ---
