@@ -144,6 +144,16 @@
 ## Hình ảnh thực tế phần mềm
 
 ### Giao diện chính của phần mềm
+<img width="1662" height="1002" alt="image" src="https://github.com/user-attachments/assets/b58c6b18-f8fb-4583-9c3b-20c2bcfb8e1c" />
+
+### Bộ lọc nâng cao như: Tình trạng hợp đồng (quá hạn, tới hạn hôm nay, đã đóng, ...), Loại tài sản (xe máy, cà vẹt, ô tô, ... ). Mặc định sẽ ẩn các hợp đồng đã kết thúc (đã chuộc) với tích nhỏ để hiện các hợp đồng đó lên. Lọc các hợp đồng theo thời gian (ngày bắt đầu hợp đồng).
+### Bộ lọc này còn kèm theo tính số tiền của các hợp đồng đó như: tổng số tiền đang vay, tổng số tiền đã thu, tổng số tiền lãi tới hôm nay của các hợp đồng đó (cộng dồn mỗi ngày cho kỳ chưa đóng và chưa tới hạn).
+
+#### Lọc 
+##### Tình trạng: "ĐÃ CHUỘC SỚM"
+##### Tài sản: "TẤT CẢ"
+<img width="1660" height="1007" alt="image" src="https://github.com/user-attachments/assets/f7be5d3c-c33b-4310-b961-3b202fe80c36" />
+
 
 ### Nhập thông tin hợp đồng cầm đồ mới sẽ tự động chia kỳ lãi, tiền lãi mỗi kỳ, thời hạn kỳ tiếp theo, lãi mỗi ngày cộng dồn tăng lên cho kỳ chưa đóng
 <img width="1182" height="867" alt="image" src="https://github.com/user-attachments/assets/139ff830-afab-4e8c-b8ba-bea580079c82" />
@@ -151,7 +161,9 @@
 <img width="1186" height="867" alt="image" src="https://github.com/user-attachments/assets/62edf394-8049-474c-9920-113ac003b0bb" />
 
 ### Tự động chia kỳ, đánh dấu kỳ đã đóng, kỳ tới hạn hôm nay, kỳ sắp tới hạn hoặc kỳ quá hạn với các màu, dễ nhận biết
-<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/aadf74d8-c858-43f4-a674-5f0bd09afaef" />
+<img width="1276" height="709" alt="image" src="https://github.com/user-attachments/assets/ea0074e2-24de-41b0-9e17-56ff2cfded16" />
+<img width="1278" height="710" alt="image" src="https://github.com/user-attachments/assets/0e2d737c-530c-4f70-8c9f-1fb056c448f4" />
+
 
 
 
