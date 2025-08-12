@@ -1,6 +1,21 @@
 # 📜 CHANGELOG  
 Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 
+## [1.4.3] – 2025-08-12
+### 🖼️ Sửa lỗi giao diện co giãn khi phóng to
+
+- 🛠️ **Khắc phục lỗi các control bị dính cạnh khi phóng to cửa sổ**  
+  - Các thành phần giao diện không còn bị kéo lệch hoặc mất cân đối khi thay đổi kích thước form  
+  - Đảm bảo bố cục luôn hiển thị đẹp và dễ thao tác
+
+- 🔧 **Thay thế `Dock` bằng `Anchor` để co giãn hợp lý**  
+  - Các control được thiết lập `Anchor` theo 4 cạnh để co giãn mượt mà  
+  - Tránh tình trạng dãn sai hoặc bị che khuất khi mở full màn hình
+
+- 💡 **Tối ưu trải nghiệm người dùng trên màn hình lớn**  
+  - Giao diện mượt mà hơn khi thay đổi kích thước cửa sổ  
+  - Giữ nguyên tính thẩm mỹ và độ ổn định của bố cục
+
 ---
 
 ## [1.4.2] – 2025-07-30  
