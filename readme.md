@@ -154,6 +154,10 @@
 ##### Tài sản: "TẤT CẢ"
 <img width="1660" height="1007" alt="image" src="https://github.com/user-attachments/assets/f7be5d3c-c33b-4310-b961-3b202fe80c36" />
 
+##### Tình trạng: "TẤT CẢ"
+##### Tài sản: "XE MÁY"
+<img width="1656" height="1005" alt="image" src="https://github.com/user-attachments/assets/1bc9affa-54c2-4d0b-8e11-bd2dd01e80fc" />
+
 
 ### Nhập thông tin hợp đồng cầm đồ mới sẽ tự động chia kỳ lãi, tiền lãi mỗi kỳ, thời hạn kỳ tiếp theo, lãi mỗi ngày cộng dồn tăng lên cho kỳ chưa đóng
 <img width="1182" height="867" alt="image" src="https://github.com/user-attachments/assets/139ff830-afab-4e8c-b8ba-bea580079c82" />
