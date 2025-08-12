@@ -178,13 +178,13 @@
 #### Lịch sử đóng lãi
 <img width="1005" height="1243" alt="image" src="https://github.com/user-attachments/assets/ab252332-c874-4f9f-9fa0-6651cdb6d238" />
 
-#### Chuộc đồ, kết thúc hợp đồng đơn giản, đầy đủ thông tin
+### Chuộc đồ, kết thúc hợp đồng đơn giản, đầy đủ thông tin
 <img width="903" height="898" alt="image" src="https://github.com/user-attachments/assets/58bb07e3-b4a2-4ade-904b-4a5c7491fa2d" />
 
-#### Thống kê số tiền đang cho vay, tiền đã thu. Quản lý dòng tiền cho vay, cầm đồ
+### Thống kê số tiền đang cho vay, tiền đã thu. Quản lý dòng tiền cho vay, cầm đồ
 <img width="861" height="599" alt="image" src="https://github.com/user-attachments/assets/ded00f37-e9ac-4649-b724-863a0238e4d9" />
 
-#### Xem lại lịch sử thay đổi hợp đồng như ngày tạo, ngày đóng lãi, kỳ nào được đóng, ngày gia hạn hôm đồng, ngày chuộc đồ, lãi bao nhiêu với thời gian cụ thể
+### Xem lại lịch sử thay đổi hợp đồng như ngày tạo, ngày đóng lãi, kỳ nào được đóng, ngày gia hạn hôm đồng, ngày chuộc đồ, lãi bao nhiêu với thời gian cụ thể
 <img width="898" height="893" alt="image" src="https://github.com/user-attachments/assets/69b27212-38dd-4374-92c4-347bd784bedc" />
 
 
