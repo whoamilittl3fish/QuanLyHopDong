@@ -1,4 +1,4 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.3*
+<img width="710" height="991" alt="image" src="https://github.com/user-attachments/assets/d113ed05-1132-4192-84e1-5cd68c4a5f16" /># 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.3*
 > Phần mềm quản lý cầm đồ đơn giản, hiện đại, dễ sử dụng.  
 > Phù hợp cho cửa hàng từ nhỏ đến vừa – tối ưu thao tác, in ấn, và quản lý lãi suất linh hoạt.  
 > **Chỉ cần nhập thông tin khoản vay, phần mềm sẽ tự động chia kỳ, tính ngày đóng lãi. Đến hạn, hệ thống sẽ hiển thị cảnh báo màu (đỏ, vàng, xanh) để bạn dễ dàng theo dõi.**  
@@ -167,6 +167,13 @@
 ### Tự động chia kỳ, đánh dấu kỳ đã đóng, kỳ tới hạn hôm nay, kỳ sắp tới hạn hoặc kỳ quá hạn với các màu, dễ nhận biết
 <img width="1276" height="709" alt="image" src="https://github.com/user-attachments/assets/ea0074e2-24de-41b0-9e17-56ff2cfded16" />
 <img width="1278" height="710" alt="image" src="https://github.com/user-attachments/assets/0e2d737c-530c-4f70-8c9f-1fb056c448f4" />
+
+### Xuất hợp đồng, lịch sử đóng lãi cho khách hàng và in dễ dàng
+<img width="710" height="991" alt="image" src="https://github.com/user-attachments/assets/d647006d-8487-414b-9fc0-205e6a16f9e1" />
+<img width="1005" height="1243" alt="image" src="https://github.com/user-attachments/assets/ab252332-c874-4f9f-9fa0-6651cdb6d238" />
+
+
+
 
 ### Xem thông tin bản cập nhật, cập nhật mọi thứ chỉ với một nút, dễ dàng, đơn giản
 <img width="575" height="246" alt="image" src="https://github.com/user-attachments/assets/189f6d2c-ff20-4df2-84d4-4853e701628e" />
