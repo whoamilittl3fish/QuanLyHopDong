@@ -40,15 +40,10 @@
 
 - ✅ **Được đóng gói thủ công, không dùng trình cài đặt bên thứ ba**  
   - Bộ cài đặt được tạo bằng Inno Setup, không kèm theo phần mềm lạ
-
-> Nếu Edge hoặc Windows cảnh báo khi tải, bạn có thể chọn “Giữ lại (KEEP)” → “Hiển thị thêm” → “Vẫn giữ lại”. Đây là cảnh báo phổ biến với phần mềm mới chưa được ký số, không phải do phần mềm có hại.
-
-<img width="441" height="84" alt="image" src="https://github.com/user-attachments/assets/3b726e05-46e8-46b3-9638-f723f99866b9" />
-
-<img width="205" height="203" alt="image" src="https://github.com/user-attachments/assets/ca9dac7a-b2c2-413f-90be-81284f06f500" />
-
-<img width="409" height="510" alt="image" src="https://github.com/user-attachments/assets/81d2c6c3-af67-4ad2-abc8-57edff7ebc76" />
-
+ 
+> Nếu Edge hoặc Windows cảnh báo khi tải, bạn có thể chọn “Giữ lại (KEEP)” → “Hiển thị thêm” → “Vẫn giữ lại (KEEP) ”. Đây là cảnh báo phổ biến với phần mềm mới chưa được ký số, không phải do phần mềm có hại.
+> HOẶC có thể tải file ZIP về giải nén và cài đặt như bình thường, đã kiểm tra qua [Virustotal](https://www.virustotal.com/gui/home/upload).
+> 
 🙏 Mọi phản hồi về bảo mật hoặc lỗi phần mềm, vui lòng liên hệ qua email hoặc GitHub để được hỗ trợ nhanh chóng.
 
 ---
