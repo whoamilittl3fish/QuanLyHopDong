@@ -1,4 +1,4 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.2*
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.3*
 
 > Phần mềm quản lý cầm đồ đơn giản, hiện đại, dễ sử dụng.  
 > Phù hợp cho cửa hàng từ nhỏ đến vừa – tối ưu thao tác, in ấn, và quản lý lãi suất linh hoạt.  
@@ -9,7 +9,9 @@
 
 ## 📥 Tải xuống & cài đặt
 
-- 🔗 **Tải phần mềm tại**: [github.com/whoamilittl3fish/QuanLyHopDong/releases](https Các bước cài đặt:
+- 🔗 **Tải phần mềm tại**: [github.com/whoamilittl3ish/QuanLyHopDong/releases
+
+### Các bước cài đặt:
 
 1. Truy cập link trên
 2. Kéo xuống phần **Assets** của phiên bản mới nhất
@@ -23,7 +25,7 @@
 
 - **SĐT**: 0966 346 694  
 - **Email**: khoa.ngovoviet@gmail.com  
-- **GitHub**: [github.com/whoamilittl3fish/QuanLyHopDong](https://github.com/whop vui lòng gửi email hoặc tạo Issue trên GitHub.  
+- **GitHub**: [github.com/whoamilittl3fish/QuanLyHopDong](https://github.com/whoặc tạo Issue trên GitHub.  
 🙏 Xin chân thành cảm ơn bạn đã sử dụng phần mềm!
 
 ---
@@ -62,11 +64,14 @@
 ## 🖥️ Yêu cầu hệ thống
 
 - Hệ điều hành: Windows 10 hoặc cao hơn  
-- Cần cài: [.NET Desktop Runtime 8.0+](https://dotnet.microsoft.com/en-us/download/dotnet/8.0 sẵn
+- Cần cài: [.NET Desktop Runtime 8.0+](https://dotnet.microsoft.com/en-us/download/dotnet/8.giao diện co giãn khi phóng to  
+> 📅 *12/08/2025*
+
+- 🖼️ Sửa lỗi các control bị dính cạnh khi phóng to form
+- 🔧 Sử dụng `Anchor` thay vì `Dock` để co giãn hợp lý theo 4 cạnh
+- 💡 Giao diện mượt mà hơn khi thay đổi kích thước cửa sổ
 
 ---
-
-## 📦 Cập nhật tính năng
 
 ### ✅ v1.4.2 – Gia hạn kỳ cuối & làm tròn tiền lãi  
 > 📅 *30/07/2025*
@@ -95,7 +100,6 @@
 
 ---
 
-
 ### 🔹 Các phiên bản trước v1.4 (rút gọn)
 
 - **v1.3.1**: Thêm sai số khi so sánh số tiền đóng lãi, mở ứng dụng sau cài đặt
@@ -103,5 +107,3 @@
 - **v1.2.x**: Bảo mật bằng mật khẩu, cập nhật tự động, chuẩn hóa ngày tháng & tiền tệ
 - **v1.1**: Phiên bản chính thức đầu tiên – quản lý hợp đồng, kỳ lãi, in ấn
 - **v1.0**: Bản thử nghiệm nội bộ – giao diện đơn giản, chưa có bản quyền
-
----
