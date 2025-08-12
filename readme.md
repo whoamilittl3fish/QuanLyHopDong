@@ -184,6 +184,9 @@
 #### Thống kê số tiền đang cho vay, tiền đã thu. Quản lý dòng tiền cho vay, cầm đồ
 <img width="861" height="599" alt="image" src="https://github.com/user-attachments/assets/ded00f37-e9ac-4649-b724-863a0238e4d9" />
 
+#### Xem lại lịch sử thay đổi hợp đồng như ngày tạo, ngày đóng lãi, kỳ nào được đóng, ngày gia hạn hôm đồng, ngày chuộc đồ, lãi bao nhiêu với thời gian cụ thể
+<img width="898" height="893" alt="image" src="https://github.com/user-attachments/assets/69b27212-38dd-4374-92c4-347bd784bedc" />
+
 
 ### Xem thông tin bản cập nhật, cập nhật mọi thứ chỉ với một nút, dễ dàng, đơn giản
 <img width="575" height="246" alt="image" src="https://github.com/user-attachments/assets/189f6d2c-ff20-4df2-84d4-4853e701628e" />
