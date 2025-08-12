@@ -1,4 +1,4 @@
-### For ENGLISH version readme[https://github.com/whoamilittl3fish/QuanLyHopDong/blob/main/readme_english.md]
+### ENGLISH readme[https://github.com/whoamilittl3fish/QuanLyHopDong/blob/main/readme_english.md]
 
 # 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.3*
 
