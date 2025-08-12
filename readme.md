@@ -181,6 +181,9 @@
 #### Chuộc đồ, kết thúc hợp đồng đơn giản, đầy đủ thông tin
 <img width="903" height="898" alt="image" src="https://github.com/user-attachments/assets/58bb07e3-b4a2-4ade-904b-4a5c7491fa2d" />
 
+#### Thống kê số tiền đang cho vay, tiền đã thu. Quản lý dòng tiền cho vay, cầm đồ
+<img width="861" height="599" alt="image" src="https://github.com/user-attachments/assets/ded00f37-e9ac-4649-b724-863a0238e4d9" />
+
 
 ### Xem thông tin bản cập nhật, cập nhật mọi thứ chỉ với một nút, dễ dàng, đơn giản
 <img width="575" height="246" alt="image" src="https://github.com/user-attachments/assets/189f6d2c-ff20-4df2-84d4-4853e701628e" />
