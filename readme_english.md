@@ -9,7 +9,7 @@
 
 ## 📥 Download & Install
 
-- 🔗 **Download here**: github.com/whoamilittl3fish/QuanLyHopDong/releases
+- 🔗 [**Download here**](github.com/whoamilittl3fish/QuanLyHopDong/releases)
 
 ### Installation Steps:
 
@@ -25,7 +25,7 @@
 
 - **Phone**: +84 966 346 694  
 - **Email**: khoa.ngovoviet@gmail.com  
-- **GitHub**: [github.com/whoamilittl3fishQuanLyHopDong
+- **GitHub**: [Github link](https://github.com/whoamilittl3fish)
 
 > Please send an email or create an Issue on GitHub.  
 🙏 Thank you for using the software!
