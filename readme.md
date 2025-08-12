@@ -168,6 +168,8 @@
 <img width="1276" height="709" alt="image" src="https://github.com/user-attachments/assets/ea0074e2-24de-41b0-9e17-56ff2cfded16" />
 <img width="1278" height="710" alt="image" src="https://github.com/user-attachments/assets/0e2d737c-530c-4f70-8c9f-1fb056c448f4" />
 
-
+### Xem thông tin bản cập nhật, cập nhật mọi thứ chỉ với một nút, dễ dàng, đơn giản
+<img width="575" height="246" alt="image" src="https://github.com/user-attachments/assets/189f6d2c-ff20-4df2-84d4-4853e701628e" />
+<img width="895" height="900" alt="image" src="https://github.com/user-attachments/assets/72766e31-2fa2-46b2-b443-43f3bea54b67" />
 
 
