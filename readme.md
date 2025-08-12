@@ -141,6 +141,8 @@
 - **v1.1**: Phiên bản chính thức đầu tiên – quản lý hợp đồng, kỳ lãi, in ấn  
 - **v1.0**: Bản thử nghiệm nội bộ – giao diện đơn giản, chưa có bản quyền
 
+---
+
 ## Hình ảnh thực tế phần mềm
 
 ### Giao diện chính của phần mềm
