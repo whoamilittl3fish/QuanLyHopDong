@@ -25,6 +25,28 @@
 
 ---
 
+## 🔒 Cam kết an toàn & bảo mật
+
+> Ứng dụng **Quản Lý Cầm Đồ** được phát triển với tiêu chí **an toàn, minh bạch và bảo mật**:
+
+- ✅ **Không chứa mã độc, virus hay phần mềm gián điệp**  
+  - Mã nguồn được kiểm tra kỹ lưỡng, không truy cập trái phép vào dữ liệu người dùng
+
+- ✅ **Không thu thập thông tin cá nhân hoặc gửi dữ liệu ra ngoài**  
+  - Ứng dụng hoạt động hoàn toàn **offline**, không yêu cầu kết nối Internet để sử dụng
+
+- ✅ **Bản quyền rõ ràng, không can thiệp hệ thống**  
+  - Cơ chế bản quyền bằng HWID chỉ dùng để xác thực, không ảnh hưởng đến hiệu năng máy tính
+
+- ✅ **Được đóng gói thủ công, không dùng trình cài đặt bên thứ ba**  
+  - Bộ cài đặt được tạo bằng Inno Setup, không kèm theo phần mềm lạ
+
+> Nếu Edge hoặc Windows cảnh báo khi tải, bạn có thể chọn “Giữ lại” → “Hiển thị thêm” → “Vẫn giữ lại”. Đây là cảnh báo phổ biến với phần mềm mới chưa được ký số, không phải do phần mềm có hại.
+
+🙏 Mọi phản hồi về bảo mật hoặc lỗi phần mềm, vui lòng liên hệ qua email hoặc GitHub để được hỗ trợ nhanh chóng.
+
+---
+
 ## 📞 Liên hệ & hỗ trợ
 
 - **SĐT**: 0966 346 694  
