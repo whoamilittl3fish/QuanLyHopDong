@@ -140,3 +140,13 @@
 - **v1.2.x**: Bảo mật bằng mật khẩu, cập nhật tự động, chuẩn hóa ngày tháng & tiền tệ  
 - **v1.1**: Phiên bản chính thức đầu tiên – quản lý hợp đồng, kỳ lãi, in ấn  
 - **v1.0**: Bản thử nghiệm nội bộ – giao diện đơn giản, chưa có bản quyền
+
+## Hình ảnh thực tế phần mềm
+
+### Giao diện chính của phần mềm
+
+### Nhập thông tin hợp đồng cầm đồ mới
+<img width="1182" height="867" alt="image" src="https://github.com/user-attachments/assets/139ff830-afab-4e8c-b8ba-bea580079c82" />
+<img width="1190" height="876" alt="image" src="https://github.com/user-attachments/assets/735e9c1b-46be-45b3-b4c3-ef21b01bf263" />
+
+
