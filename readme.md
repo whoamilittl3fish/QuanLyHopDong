@@ -169,7 +169,9 @@
 <img width="1278" height="710" alt="image" src="https://github.com/user-attachments/assets/0e2d737c-530c-4f70-8c9f-1fb056c448f4" />
 
 ### Xuất hợp đồng, lịch sử đóng lãi cho khách hàng và in dễ dàng
+#### Hợp đồng
 <img width="710" height="991" alt="image" src="https://github.com/user-attachments/assets/d647006d-8487-414b-9fc0-205e6a16f9e1" />
+#### Lịch sử đóng lãi
 <img width="1005" height="1243" alt="image" src="https://github.com/user-attachments/assets/ab252332-c874-4f9f-9fa0-6651cdb6d238" />
 
 
