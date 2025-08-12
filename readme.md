@@ -174,9 +174,6 @@
 #### Lịch sử đóng lãi
 <img width="1005" height="1243" alt="image" src="https://github.com/user-attachments/assets/ab252332-c874-4f9f-9fa0-6651cdb6d238" />
 
-
-
-
 ### Xem thông tin bản cập nhật, cập nhật mọi thứ chỉ với một nút, dễ dàng, đơn giản
 <img width="575" height="246" alt="image" src="https://github.com/user-attachments/assets/189f6d2c-ff20-4df2-84d4-4853e701628e" />
 <img width="895" height="900" alt="image" src="https://github.com/user-attachments/assets/72766e31-2fa2-46b2-b443-43f3bea54b67" />
