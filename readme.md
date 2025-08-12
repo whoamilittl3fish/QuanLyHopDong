@@ -145,8 +145,13 @@
 
 ### Giao diện chính của phần mềm
 
-### Nhập thông tin hợp đồng cầm đồ mới
+### Nhập thông tin hợp đồng cầm đồ mới sẽ tự động chia kỳ lãi, tiền lãi mỗi kỳ, thời hạn kỳ tiếp theo, lãi mỗi ngày cộng dồn tăng lên cho kỳ chưa đóng
 <img width="1182" height="867" alt="image" src="https://github.com/user-attachments/assets/139ff830-afab-4e8c-b8ba-bea580079c82" />
 <img width="1190" height="876" alt="image" src="https://github.com/user-attachments/assets/735e9c1b-46be-45b3-b4c3-ef21b01bf263" />
+<img width="1186" height="867" alt="image" src="https://github.com/user-attachments/assets/62edf394-8049-474c-9920-113ac003b0bb" />
+
+### Tự động chia kỳ, đánh dấu kỳ đã đóng, kỳ tới hạn hôm nay, kỳ sắp tới hạn hoặc kỳ quá hạn với các màu, dễ nhận biết
+<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/aadf74d8-c858-43f4-a674-5f0bd09afaef" />
+
 
 
