@@ -1,4 +1,4 @@
-# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.4.3*
+# 📘 Ứng dụng Quản Lý Cầm Đồ – *v1.5.0*
 > Phần mềm quản lý cầm đồ đơn giản, hiện đại, dễ sử dụng.  
 > Phù hợp cho cửa hàng từ nhỏ đến vừa – tối ưu thao tác, in ấn, và quản lý lãi suất linh hoạt.  
 > **Chỉ cần nhập thông tin khoản vay, phần mềm sẽ tự động chia kỳ, tính ngày đóng lãi. Đến hạn, hệ thống sẽ hiển thị cảnh báo màu (đỏ, vàng, xanh) để bạn dễ dàng theo dõi.**  
@@ -96,6 +96,21 @@
 ---
 
 ## 📦 Cập nhật tính năng
+
+### 🚀 v1.5.0 – Tự động cập nhật & đồng bộ thời gian  
+> 📅 *07/09/2025*
+
+- ⚡ **Tự động cập nhật tình trạng hợp đồng ngay khi thêm mới**  
+  Khi tạo hợp đồng mới, hệ thống sẽ tự động cập nhật tình trạng hợp đồng và lịch sử đóng lãi tương ứng.  
+  - Không cần thao tác thủ công sau khi thêm hợp đồng  
+  - Đảm bảo dữ liệu đồng bộ và chính xác tức thì  
+  - Tránh tình trạng hợp đồng mới bị bỏ sót hoặc hiển thị sai trạng thái  
+
+- 🕒 **Đồng bộ hoá thời gian cập nhật**  
+  Thời gian được lưu và so sánh đồng bộ theo chuẩn ISO, đảm bảo hợp đồng luôn được hiển thị đúng màu sắc theo từng ngày.  
+  - Tránh lệch ngày/giờ giữa thao tác lưu và khi hệ thống tải lại  
+  - Màu hiển thị tình trạng hợp đồng thay đổi chính xác theo từng ngày thực tế  
+
 
 ### ✅ v1.4.3 – Giao diện co giãn khi phóng to  
 > 📅 *12/08/2025*
