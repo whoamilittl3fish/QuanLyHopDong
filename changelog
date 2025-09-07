@@ -11,10 +11,10 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
   - Không cần thao tác thủ công sau khi thêm hợp đồng  
   - Đảm bảo dữ liệu đồng bộ tức thì, tránh bỏ sót hoặc hiển thị sai trạng thái  
 
-- 🕒 **Đồng bộ hóa thời gian cập nhật**  
-  - Thời gian được lưu và so sánh theo chuẩn ISO (`yyyy-MM-dd HH:mm:ss`)  
-  - Trạng thái và màu sắc hợp đồng hiển thị chính xác theo từng ngày  
-  - Tránh lệch ngày/giờ giữa lúc lưu và khi tải lại dữ liệu  
+- 🕒 **Đồng bộ hóa thời gian & cập nhật liên tục theo ngày**  
+  - Hợp đồng sẽ luôn tự động cập nhật tình trạng chính xác mỗi khi sang ngày mới, **không bao giờ bị miss ngày**  
+  - Thời gian lưu trữ theo chuẩn ISO (`yyyy-MM-dd HH:mm:ss`) giúp so sánh chuẩn xác tuyệt đối  
+  - Trạng thái và màu sắc hợp đồng hiển thị đúng 100% theo từng ngày thực tế  
 
 ---
 
