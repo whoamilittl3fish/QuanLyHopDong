@@ -1,6 +1,23 @@
 # 📜 CHANGELOG  
 Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 
+---
+
+## [1.5.0] – 2025-09-07
+### 🚀 Tự động cập nhật & đồng bộ thời gian
+
+- ⚡ **Tự động cập nhật tình trạng hợp đồng khi thêm mới**  
+  - Ngay sau khi tạo hợp đồng, hệ thống sẽ tự động cập nhật tình trạng và lịch sử đóng lãi  
+  - Không cần thao tác thủ công sau khi thêm hợp đồng  
+  - Đảm bảo dữ liệu đồng bộ tức thì, tránh bỏ sót hoặc hiển thị sai trạng thái  
+
+- 🕒 **Đồng bộ hóa thời gian cập nhật**  
+  - Thời gian được lưu và so sánh theo chuẩn ISO (`yyyy-MM-dd HH:mm:ss`)  
+  - Trạng thái và màu sắc hợp đồng hiển thị chính xác theo từng ngày  
+  - Tránh lệch ngày/giờ giữa lúc lưu và khi tải lại dữ liệu  
+
+---
+
 ## [1.4.3] – 2025-08-12
 ### 🖼️ Sửa lỗi giao diện co giãn khi phóng to
 
