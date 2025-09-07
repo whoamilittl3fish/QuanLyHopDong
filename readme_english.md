@@ -1,4 +1,4 @@
-# 📘 Pawnshop Management App – *v1.4.3*
+# 📘 Pawnshop Management App – *v1.5.0*
 
 > A simple, modern, and user-friendly pawnshop management software.  
 > Ideal for small to medium-sized shops – optimized for operations, printing, and flexible interest rate management.  
@@ -73,6 +73,20 @@
 - 🔧 Switched from `Dock` to `Anchor` for proper 4-side scaling
 - 💡 Smoother UI when resizing the window
 
+---
+
+### 🚀 v1.5.0 – Auto Update & Time Synchronization  
+> 📅 *07/09/2025*
+
+- ⚡ **Auto-update contract status** immediately after creation  
+  - System updates both contract status and interest history right when a new contract is added  
+  - No manual action required, ensuring instant synchronization and accuracy  
+
+- 🕒 **Time synchronization for daily status**  
+  - Dates stored and compared in ISO format (`yyyy-MM-dd HH:mm:ss`)  
+  - Contract status colors refresh accurately by each day  
+  - Prevents mismatches between saved and displayed dates
+  - 
 ---
 
 ### ✅ v1.4.2 – Final Term Extension & Interest Rounding  
