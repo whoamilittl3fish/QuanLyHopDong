@@ -3,6 +3,23 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 
 ---
 
+## [1.5.1] – 2025-09-16
+### 👤 Hiển thị SĐT & cảnh báo hạn hợp đồng
+
+- 👤 **Tên khách hàng kèm số điện thoại**  
+  - Hiển thị số điện thoại ngay dưới tên khách hàng trên giao diện chính  
+  - Giúp thao tác gọi điện và tra cứu nhanh chóng hơn  
+
+- ⏰ **Bổ sung icon trực quan cho tình trạng hợp đồng**  
+  - 🔴 ⏰ Quá hạn – cảnh báo nổi bật, dễ nhận biết  
+  - 🟠 ⌛ Sắp tới hạn – hiển thị trực quan, nhắc nhở kịp thời  
+
+- 💡 **Trải nghiệm trực quan hơn**  
+  - Dễ dàng nhận diện khách hàng  
+  - Theo dõi tình trạng hợp đồng ngay trên giao diện chính  
+
+---
+
 ## [1.5.0] – 2025-09-07
 ### 🚀 Tự động cập nhật & đồng bộ thời gian
 
