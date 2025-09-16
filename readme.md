@@ -106,6 +106,8 @@
   - 🟠 ⌛ Sắp tới hạn  
 - 💡 Dễ dàng nhận diện khách hàng và theo dõi hạn hợp đồng
 
+---
+
 ### 🚀 v1.5.0 – Tự động cập nhật & đồng bộ thời gian  
 > 📅 *07/09/2025*
 
@@ -120,6 +122,7 @@
   - Tránh lệch ngày/giờ giữa thao tác lưu và khi hệ thống tải lại  
   - Màu hiển thị tình trạng hợp đồng thay đổi chính xác theo từng ngày thực tế  
 
+---
 
 ### ✅ v1.4.3 – Giao diện co giãn khi phóng to  
 > 📅 *12/08/2025*
