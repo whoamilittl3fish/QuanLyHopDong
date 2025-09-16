@@ -1,4 +1,4 @@
-# 📘 Pawnshop Management App – *v1.5.0*
+# 📘 Pawnshop Management App – *v1.5.1*
 
 > A simple, modern, and user-friendly pawnshop management software.  
 > Ideal for small to medium-sized shops – optimized for operations, printing, and flexible interest rate management.  
@@ -72,6 +72,17 @@
 - 🖼️ Fixed controls sticking to edges when maximizing the form
 - 🔧 Switched from `Dock` to `Anchor` for proper 4-side scaling
 - 💡 Smoother UI when resizing the window
+
+---
+
+### ✅ v1.5.1 – Display phone number & contract due alerts  
+> 📅 *16/09/2025*
+
+- 👤 Show customer phone number right below their name on the main interface  
+- ⏰ Add intuitive icons for contract status  
+  - 🔴 ⏰ Overdue  
+  - 🟠 ⌛ Upcoming due  
+- 💡 Easier to identify customers and track contract deadlines
 
 ---
 
