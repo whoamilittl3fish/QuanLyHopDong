@@ -97,6 +97,15 @@
 
 ## 📦 Cập nhật tính năng
 
+### ✅ v1.5.1 – Hiển thị SĐT & cảnh báo hạn hợp đồng  
+> 📅 *16/09/2025*
+
+- 👤 Hiển thị số điện thoại ngay dưới tên khách hàng trên giao diện chính  
+- ⏰ Bổ sung icon trực quan cho tình trạng hợp đồng  
+  - 🔴 ⏰ Quá hạn  
+  - 🟠 ⌛ Sắp tới hạn  
+- 💡 Dễ dàng nhận diện khách hàng và theo dõi hạn hợp đồng
+
 ### 🚀 v1.5.0 – Tự động cập nhật & đồng bộ thời gian  
 > 📅 *07/09/2025*
 
