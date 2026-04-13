@@ -3,254 +3,119 @@ Lịch sử các phiên bản phần mềm **Quản Lý Cầm Đồ**
 
 ---
 
+## [1.6.0] – 2026-04-14
+### 🚀 Tối ưu giao diện thống kê & Trải nghiệm người dùng
+
+- 🎯 **Đơn giản hóa bộ lọc thống kê** - ❌ Loại bỏ ComboBox chọn tháng/năm cũ để giảm bớt thao tác thừa.  
+  - ✨ Tập trung hiển thị dữ liệu trực quan ngay tại màn hình chính cho tháng hiện tại.
+
+- 📊 **Cập nhật ba chỉ số vàng (Key Metrics)** - 💰 **Tổng tiền đang cho vay:** Theo dõi tổng nguồn vốn thực tế đang nằm ở khách hàng.  
+  - 📈 **Tổng lãi đã thu trong tháng:** Hiển thị lợi nhuận thực tế đã bỏ túi trong tháng hiện tại.  
+  - 📋 **Tổng hợp đồng còn hiệu lực:** Quản lý nhanh số lượng khách hàng đang giao dịch.
+
+- ✅ **Tối ưu hóa hiệu suất truy vấn** - Tăng tốc độ tải bảng thống kê khi ứng dụng khởi động.  
+  - Đảm bảo các con số luôn khớp với trạng thái thực tế của hợp đồng.
+
+---
+
 ## [1.5.1] – 2025-09-16
 ### 👤 Hiển thị SĐT & cảnh báo hạn hợp đồng
 
-- 👤 **Tên khách hàng kèm số điện thoại**  
-  - Hiển thị số điện thoại ngay dưới tên khách hàng trên giao diện chính  
-  - Giúp thao tác gọi điện và tra cứu nhanh chóng hơn  
+- 👤 **Tên khách hàng kèm số điện thoại** - Hiển thị số điện thoại ngay dưới tên khách hàng trên giao diện chính.  
+  - Giúp thao tác gọi điện và tra cứu nhanh chóng hơn.  
 
-- ⏰ **Bổ sung icon trực quan cho tình trạng hợp đồng**  
-  - 🔴 ⏰ Quá hạn – cảnh báo nổi bật, dễ nhận biết  
-  - 🟠 ⌛ Sắp tới hạn – hiển thị trực quan, nhắc nhở kịp thời  
+- ⏰ **Bổ sung icon trực quan cho tình trạng hợp đồng** - 🔴 ⏰ Quá hạn – cảnh báo nổi bật, dễ nhận biết.  
+  - 🟠 ⌛ Sắp tới hạn – hiển thị trực quan, nhắc nhở kịp thời.  
 
-- 💡 **Trải nghiệm trực quan hơn**  
-  - Dễ dàng nhận diện khách hàng  
-  - Theo dõi tình trạng hợp đồng ngay trên giao diện chính  
+- 💡 **Trải nghiệm trực quan hơn** - Dễ dàng nhận diện khách hàng và theo dõi tình trạng ngay trên màn hình chính.
 
 ---
 
 ## [1.5.0] – 2025-09-07
 ### 🚀 Tự động cập nhật & đồng bộ thời gian
 
-- ⚡ **Tự động cập nhật tình trạng hợp đồng khi thêm mới**  
-  - Ngay sau khi tạo hợp đồng, hệ thống sẽ tự động cập nhật tình trạng và lịch sử đóng lãi  
-  - Không cần thao tác thủ công sau khi thêm hợp đồng  
-  - Đảm bảo dữ liệu đồng bộ tức thì, tránh bỏ sót hoặc hiển thị sai trạng thái  
+- ⚡ **Tự động cập nhật tình trạng hợp đồng khi thêm mới** - Hệ thống tự động cập nhật tình trạng và lịch sử đóng lãi ngay sau khi tạo.  
+  - Đảm bảo dữ liệu đồng bộ tức thì, tránh hiển thị sai trạng thái ban đầu.
 
-- 🕒 **Đồng bộ hóa thời gian & cập nhật liên tục theo ngày**  
-  - Hợp đồng sẽ luôn tự động cập nhật tình trạng chính xác mỗi khi sang ngày mới, **không bao giờ bị miss ngày**  
-  - Thời gian lưu trữ theo chuẩn ISO (`yyyy-MM-dd HH:mm:ss`) giúp so sánh chuẩn xác tuyệt đối  
-  - Trạng thái và màu sắc hợp đồng hiển thị đúng 100% theo từng ngày thực tế  
+- 🕒 **Đồng bộ hóa thời gian & cập nhật liên tục theo ngày** - Hợp đồng tự động cập nhật chính xác mỗi khi sang ngày mới, không bị "lệch" ngày.  
+  - Thời gian lưu trữ chuẩn ISO giúp so sánh chuẩn xác tuyệt đối.
 
 ---
 
 ## [1.4.3] – 2025-08-12
 ### 🖼️ Sửa lỗi giao diện co giãn khi phóng to
 
-- 🛠️ **Khắc phục lỗi các control bị dính cạnh khi phóng to cửa sổ**  
-  - Các thành phần giao diện không còn bị kéo lệch hoặc mất cân đối khi thay đổi kích thước form  
-  - Đảm bảo bố cục luôn hiển thị đẹp và dễ thao tác
+- 🛠️ **Khắc phục lỗi các control bị dính cạnh khi phóng to cửa sổ** - Các thành phần không còn bị kéo lệch hoặc mất cân đối khi thay đổi kích thước form.
 
-- 🔧 **Thay thế `Dock` bằng `Anchor` để co giãn hợp lý**  
-  - Các control được thiết lập `Anchor` theo 4 cạnh để co giãn mượt mà  
-  - Tránh tình trạng dãn sai hoặc bị che khuất khi mở full màn hình
-
-- 💡 **Tối ưu trải nghiệm người dùng trên màn hình lớn**  
-  - Giao diện mượt mà hơn khi thay đổi kích thước cửa sổ  
-  - Giữ nguyên tính thẩm mỹ và độ ổn định của bố cục
+- 🔧 **Thay thế `Dock` bằng `Anchor` để co giãn hợp lý** - Các control được thiết lập Anchor 4 cạnh để co giãn mượt mà, tránh bị che khuất trên màn hình Full HD.
 
 ---
 
 ## [1.4.2] – 2025-07-30  
 ### ✅ Cập nhật gia hạn thêm kỳ ở lịch sử đóng lãi
 
-- ✨ **Cập nhật chức năng gia hạn kỳ cuối mà không đẩy kỳ cũ**  
-  - Cho phép gia hạn bằng cách thêm 1 kỳ mới nối tiếp, giữ nguyên kỳ cũ (không đẩy kỳ về sau nữa)
-  - Giúp linh hoạt xử lý khi khách hàng cần kéo dài thời hạn nhưng chưa đóng lãi kỳ trước
+- ✨ **Cập nhật chức năng gia hạn kỳ cuối** - Cho phép thêm 1 kỳ mới nối tiếp mà không đẩy lùi các kỳ cũ.  
+  - Linh hoạt xử lý khi khách cần kéo dài thời hạn nhưng chưa đóng lãi kỳ trước.
 
-- 💰 **Tự động làm tròn số tiền phải đóng lên bội số của 100**  
-  - Tăng độ chính xác và tiện lợi khi thanh toán  
-  - Giảm sai số khi tính toán và dễ xử lý trong thực tế thu tiền
+- 💰 **Tự động làm tròn số tiền** - Làm tròn số tiền phải đóng lên bội số của **100** để thuận tiện thu tiền mặt.
 
 ---
 
 ## [1.4.1] – 2025-07-21  
 ### 🛠️ Hoàn thiện giao diện & bộ cài đặt
 
-- 🪟 **Tên form hiển thị chuẩn trên thanh tác vụ**  
-  - Cập nhật tiêu đề cửa sổ ứng dụng để hiển thị đúng tên phần mềm khi chạy  
-  - Giúp người dùng dễ nhận diện và chuyển đổi giữa các cửa sổ
-
-- 📦 **Bộ cài đặt được tối ưu lại**  
-  - Sử dụng đúng file cài đặt `.NET Desktop Runtime 8.0.18` chính thức  
-  - Tự động kiểm tra và cài đặt nếu thiếu, đảm bảo ứng dụng chạy ổn định  
-  - Cấu hình shortcut, biểu tượng và logic khởi chạy sau cài đặt được hoàn thiện
-
-- 🧹 **Dọn dẹp và chuẩn hóa mã nguồn cài đặt**  
-  - Loại bỏ các file không cần thiết khỏi bộ cài  
-  - Tăng tính ổn định và giảm khả năng lỗi khi cài đặt trên máy người dùng
-
+- 🪟 **Tên form hiển thị chuẩn trên thanh tác vụ** (Taskbar).  
+- 📦 **Tối ưu bộ cài đặt**: Tự động kiểm tra và yêu cầu cài đặt `.NET Desktop Runtime 8.0` nếu máy khách chưa có.  
+- 🧹 **Dọn dẹp mã nguồn**: Loại bỏ file rác, tăng tính ổn định khi cài đặt.
 
 ---
 
 ## [1.4] – 2025-07-19  
 ### ⚙️ Tối ưu hiệu suất & trải nghiệm nhập liệu
 
-- 🔁 **Đưa `LaiDenHomNay` về 0 cho hợp đồng hết hiệu lực**  
-  - Tình trạng `-1` (đã chuộc) và `-2` (đã thanh lý) sẽ tự động reset `LaiDenHomNay`
-  - Giúp thống kê chính xác, tránh dư lãi không thực tế
-
-- 🔢 **Nhập liệu số mượt mà hơn**  
-  - Tự động định dạng **hàng nghìn** trong lúc nhập  
-  - Áp dụng cho số tiền, số điện thoại, CCCD  
-  - Gõ nhanh, không nháy màn hình, trải nghiệm mượt mà hơn
-
-- ⏩ **Tối ưu phân trang khi tìm kiếm**  
-  - Khi lọc hợp đồng, phân trang vẫn giữ trạng thái mượt  
-  - Tự động khóa nút tiến / lùi nếu đang ở trang đầu hoặc cuối
-
-- 🧠 **Tối ưu kiểm tra mã hợp đồng tồn tại trong SQL**  
-  - Giảm truy vấn dư thừa  
-  - Rút ngắn thời gian xử lý khi thêm mới hoặc tìm kiếm
+- 🔁 **Reset lãi về 0**: Hợp đồng đã chuộc hoặc thanh lý sẽ tự động đưa `LaiDenHomNay` về 0.  
+- 🔢 **Định dạng hàng nghìn khi nhập**: Áp dụng cho số tiền, SĐT, CCCD giúp gõ nhanh và ít sai sót.  
+- ⏩ **Tối ưu phân trang**: Chuyển trang mượt mà hơn khi tìm kiếm dữ liệu lớn.
 
 ---
 
 ## [1.3.1] – 2025-07-15  
-### 🧮 Chuẩn hóa so sánh số tiền – xử lý sai số số thực
+### 🧮 Chuẩn hóa so sánh số tiền
 
-- ✅ **Thêm sai số cho so sánh số tiền (`SoTienDaDong` vs `SoTienPhaiDong`)**:  
-  - Do sử dụng kiểu `decimal` hoặc số thực, có thể phát sinh sai số rất nhỏ khi lưu (ví dụ `50,000` thành `50,000.000000001`)
-  - Áp dụng ngưỡng sai số tối đa **999 đồng** khi so sánh
-  - Giúp cập nhật tình trạng đóng lãi chính xác, không đánh dấu sai trạng thái
+- ✅ **Xử lý sai số số thực**: Áp dụng ngưỡng sai số **999 đồng** khi so sánh số tiền đã đóng và phải đóng để tránh lỗi lệch thập phân do kiểu dữ liệu `decimal`.
 
 ---
 
 ## [1.3] – 2025-07-10  
 ### 🎨 Giao diện nâng cao & thống kê chi tiết
 
-- ✨ **Nâng cấp giao diện các hộp thoại thông báo**:
-  - Hộp thoại Yes/No đẹp hơn, bố cục rõ ràng, không bị che nút
-  - Thông báo in lịch sử đóng lãi rõ ràng hơn nếu đang mở file
-
-- 🖼️ **Tối ưu lại giao diện thêm hợp đồng và ghi chú**:
-  - Màu nền dịu, font chữ dễ đọc, bo góc đẹp mắt
-  - Đồng bộ với giao diện thống nhất toàn phần mềm
-
-- 📦 **Thêm trường `LaiDenHomNay` vào CSDL**:
-  - Ghi lại số lãi đến thời điểm hiện tại (đã trừ các kỳ đã đóng)
-  - Giúp hiển thị chính xác tổng lãi còn lại cần thu
-
-- 📊 **Cập nhật tìm kiếm nâng cao**:
-  - Hiển thị **tổng tiền đang cho vay**, **tổng lãi đã thu**, **tổng lãi đến hôm nay**
-  - Tính cả `TienKhac` vào tổng lãi đã thu
-
-- ✅ **Thêm checkbox “Bao gồm hợp đồng đã hết hiệu lực”**:
-  - Mặc định chỉ lọc hợp đồng còn hiệu lực
-  - Khi bật sẽ hiển thị cả hợp đồng đã chuộc, đã thanh lý
-  - Sử dụng view để tối ưu hiệu suất lọc và tìm kiếm
-
-- ⚙️ **Tối ưu cơ sở dữ liệu và câu lệnh SQL**:
-  - Bổ sung `VIEW_HopDong_ConHieuLuc` và `VIEW_HopDong_HetHieuLuc`
-  - Tự động cập nhật schema nếu thiếu cột
+- ✨ **Hộp thoại thông báo mới**: Giao diện Yes/No hiện đại, rõ ràng.  
+- 📊 **Tìm kiếm nâng cao**: Hiển thị tổng tiền đang cho vay và tổng lãi đã thu (bao gồm cả tiền phí khác).  
+- ✅ **Checkbox ẩn/hiện hợp đồng hết hiệu lực**: Mặc định chỉ hiện các hợp đồng đang hoạt động.
 
 ---
 
 ## [1.2.10] – 2025-07-08  
-### 🌐 Chuẩn hóa định dạng & tương thích đa hệ điều hành
+### 🌐 Chuẩn hóa định dạng
 
-- 💰 **Chuẩn hóa định dạng số tiền** theo chuẩn quốc tế:
-  - Dùng dấu **phẩy `,`** để phân cách **hàng nghìn**
-  - Dùng dấu **chấm `.`** để phân cách **phần thập phân**
-
-- 🌏 **Tương thích với mọi ngôn ngữ hệ điều hành** (Windows tiếng Việt, tiếng Anh,...)
-
-- 📅 **Cải tiến định dạng ngày rõ ràng hơn**: `dd - MM - yyyy`
-
-- 🛠️ **Bổ sung hàm định dạng số và ngày nhất quán**
+- 💰 Dùng dấu phẩy `,` phân cách hàng nghìn, dấu chấm `.` cho phần thập phân.  
+- 📅 Định dạng ngày thống nhất: `dd - MM - yyyy`.
 
 ---
 
-## [1.2.9] – 2025-07-06  
-### 🔐 Bảo vệ phần mềm bằng mật khẩu
-
-- 🧩 Đặt mật khẩu đăng nhập, xác nhận 2 lần khi thay đổi
-- 👁️ Form mật khẩu hiện đại, rõ ràng, bo tròn
-
----
-
-## [1.2.8] – 2025-07-06  
-### ⚙️ Cập nhật tự động & cải thiện giao diện tải
-
-- 🔄 Tự động tải và cài đặt bản mới từ GitHub
-- 🎨 Giao diện tải đẹp mắt, rõ ràng
-- 🧹 Căn chỉnh lại vị trí các nút trong form
-
----
-
-## [1.2.7] – 2025-07-05  
-### 🧠 Lịch sử thao tác dễ đọc
-
-- 📅 Định dạng ngày `dd-MM-yyyy` toàn hệ thống
-- 🧾 Ghi chú định dạng rõ ràng, dễ nhìn
-- ✅ Ghi rõ số ngày gia hạn và kỳ lãi
-
----
-
-## [1.2.6] – 2025-07-04  
-### 📊 Ghi nhận thống kê cố định theo tháng
-
-- 🧾 Ghi tổng tiền đã thu và số hợp đồng theo tháng
-- 🗃️ Dữ liệu cố định, không bị thay đổi khi cập nhật hợp đồng sau này
-
----
-
-## [1.2.5] – 2025-07-03  
-### 🎯 Cải thiện quản lý hợp đồng & lịch sử đóng lãi
-
-- 📢 Cảnh báo khi mở hợp đồng đã xóa
-- 🧹 Sửa bộ lọc hợp đồng đã chuộc
-- 🎨 Bảng lịch sử đóng lãi có màu, icon minh họa
-- 📅 Thêm cột “Tổng thời gian vay (ngày)”
-- 🔁 Tự reload sau khi gia hạn/chuộc
-
----
-
-## [1.2.4] – 2025-07-02  
-### 🔍 Tìm kiếm thông minh & tự động hóa kỳ lãi
-
-- 🔁 Tự tạo kỳ lãi đầu tiên
-- 🔎 Tìm kiếm không dấu theo tên khách hàng
-- ☁️ Kiểm tra phiên bản phần mềm online
-- 🗃️ Tự cập nhật cấu trúc CSDL
-
----
-
-## [1.2.2] – 2025-07-01  
-### 🧾 Cập nhật in hợp đồng & lịch sử đóng lãi
-
-- 📝 Sửa lỗi đọc số tiền bằng chữ
-- 📅 Định dạng ngày `dd/MM/yyyy` cho in lịch sử
-- 📂 In PDF lưu trong thư mục `Print/HopDong` và `Print/LichSu`
-
----
-
-## [1.2.1] – 2025-07-01  
-### 🔧 Cập nhật nhỏ nhưng quan trọng
-
-- ✅ Thống kê hợp đồng đang vay, lãi thu trong tháng
-- 🖨️ PDF Quest chỉnh đẹp theo mẫu thật
-- 💄 Tinh chỉnh font, căn lề giao diện
+## [1.2.x] (Rút gọn)
+- **1.2.9**: Thêm bảo mật mật khẩu đăng nhập.  
+- **1.2.8**: Cập nhật tự động từ GitHub.  
+- **1.2.2**: In hợp đồng/lịch sử ra PDF chuyên nghiệp.
 
 ---
 
 ## [1.1] – 2025-06-30  
 ### ✨ Phiên bản chính thức đầu tiên
-
-- Giao diện hiện đại
-- Quản lý hợp đồng vay đầy đủ
-- Tính lãi, phân kỳ, lịch sử
-- Tìm kiếm nâng cao, phân trang
-- In PDF hợp đồng, lịch sử
-- Bản quyền HWID
-- Thống kê tiền vay, số hợp đồng, lãi thu
+- Đầy đủ tính năng: Quản lý, Tính lãi, In ấn, Bản quyền HWID.
 
 ---
 
 ## [1.0] – 2025-06-15  
 ### 🧪 Phiên bản thử nghiệm nội bộ
-
-- Tạo & lưu hợp đồng bằng SQLite
-- Giao diện cơ bản
-- Có tính lãi kỳ, in Word
-- Chưa có bản quyền, phân trang, tìm kiếm
+- Khởi tạo cơ sở dữ liệu SQLite và các tính năng cơ bản.
